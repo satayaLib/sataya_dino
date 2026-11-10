@@ -759,6 +759,10 @@ mod tests {
         c.stats.melee_percent = Some(351.75);
         c.tags = vec!["босс".into(), "пара".into()];
         c.extra_stats.insert("charge".into(), 12.5);
+        c.set_point(PointStage::BeforeTame, "health", Some(29));
+        c.set_point(PointStage::AfterTame, "health", Some(40));
+        c.set_point(PointStage::Mutations, "health", Some(0));
+        c.set_point(PointStage::Levelups, "health", Some(10));
         d.creatures.push(c);
         d
     }
@@ -792,6 +796,24 @@ mod tests {
         assert_eq!(plan.updated, 0);
         assert_eq!(plan.skipped, 1);
         assert_eq!(plan.data, data);
+    }
+
+    #[test]
+    fn point_snapshots_reject_fractional_values_and_preserve_zero() {
+        let mut data = sample();
+        assert_eq!(
+            data.creatures[0].point(PointStage::Mutations, "health"),
+            Some(0)
+        );
+        data.creatures[0]
+            .extra_stats
+            .insert("points.after_tame.health".into(), 29.5);
+        assert!(!data.creatures[0].validate().is_empty());
+        let csv = export_csv(&data, &data.creatures).unwrap();
+        let empty = AppData::default();
+        let preview = parse(&csv, &empty);
+        assert_eq!(preview.error_count(), 1);
+        assert!(plan_csv_import(&empty, &preview, &ImportMode::Merge, false, NOW).is_err());
     }
 
     #[test]

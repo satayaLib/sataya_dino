@@ -245,9 +245,13 @@ pub fn OcrPanel(props: &OcrProps) -> Html {
                     Ok(text) => match serde_json::from_str::<OcrDocument>(&text) {
                         Ok(doc) => {
                             let parsed = parse_ocr(&doc, &catalog.creatures, game);
+                            let count = STAT_FIELDS
+                                .iter()
+                                .filter(|(key, _, _)| parsed.stats.get(key).is_some())
+                                .count();
                             callback.emit(parsed.clone());
                             result.set(Some(parsed));
-                            progress.set("Готово — проверьте заполненные поля".into());
+                            progress.set(if count == 0 { "Статы не найдены — выделите окно целиком или заполните поля вручную".into() } else { format!("Заполнено характеристик: {count}. Проверьте значения перед сохранением") });
                         }
                         Err(e) => error.set(Some(e.to_string())),
                     },
@@ -269,7 +273,7 @@ pub fn OcrPanel(props: &OcrProps) -> Html {
         })
     };
     html! {<section class="ocr-panel" onpaste={onpaste} ondrop={ondrop} ondragover={Callback::from(|e:DragEvent|e.prevent_default())}>
-        <div class="section-heading"><h3>{"Скриншот характеристик"}</h3><span class="source-tag">{props.game.key().to_uppercase()}</span></div><p class="muted small">{"Стандартный инвентарь приручённого дино. Выделите область с подписями и значениями статов."}</p>
+        <div class="section-heading"><h3>{"Скриншот характеристик"}</h3><span class="source-tag">{props.game.key().to_uppercase()}</span></div><p class="muted small">{"Выделите окно характеристик целиком: иконки, значения и полосы статов. Панель со значками определяется автоматически."}</p>
         <label class="upload-zone"><Icon name="photo"/><strong>{if image.is_some(){"Заменить изображение"}else{"Выберите или перетащите скриншот"}}</strong><span>{"PNG, JPEG, WebP · до 20 МБ · можно вставить из буфера"}</span><input type="file" accept="image/png,image/jpeg,image/webp" onchange={onfile} disabled={*busy}/></label>
         if let Some(info)=&*image {
             <div class="crop-frame" ref={frame} onpointerdown={down} onpointermove={moving} onpointerup={up.clone()} onpointercancel={up} aria-label="Выделение области статов"><img src={info.url.clone()} alt="Ваш скриншот для распознавания" draggable="false"/><div class="crop-selection" style={format!("left:{}%;top:{}%;width:{}%;height:{}%",crop.x,crop.y,crop.w,crop.h)}/></div>
@@ -281,8 +285,8 @@ pub fn OcrPanel(props: &OcrProps) -> Html {
         if !progress.is_empty(){<p class="ocr-progress" role="status">{&*progress}</p>}
         if let Some(error)=&*error{<div class="error-box" role="alert">{error}</div>}
         if let Some(draft)=&*result{
-            <div class="callout">{"Распознанные поля перенесены в форму. Проверьте вид и каждое значение перед сохранением."}</div>
-            if !draft.warnings.is_empty(){<details class="ocr-details"><summary>{format!("Что проверить ({})",draft.warnings.len())}</summary><ul>{for draft.warnings.iter().map(|s|html!{<li>{s}</li>})}</ul></details>}
+            <div class="callout">{if STAT_FIELDS.iter().any(|(key, _, _)| draft.stats.get(key).is_some()) { "Распознанные поля перенесены в форму. Проверьте вид и каждое значение перед сохранением." } else { "Не удалось прочитать характеристики. Измените выделение или заполните поля вручную." }}</div>
+            if !draft.warnings.is_empty(){<details class="ocr-details" open=true><summary>{format!("Что проверить ({})",draft.warnings.len())}</summary><ul>{for draft.warnings.iter().map(|s|html!{<li>{s}</li>})}</ul></details>}
             <details class="ocr-details"><summary>{"Распознанный текст"}</summary><pre>{&draft.raw_text}</pre></details>
         }
         <div class="local-note"><span class="status-dot"/>{"Обработка на вашем устройстве. Изображение остаётся в черновике."}</div>

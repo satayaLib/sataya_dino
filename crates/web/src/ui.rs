@@ -170,6 +170,9 @@ pub fn method_label(method: &str) -> &str {
         "passive" => "Пассивное",
         "special" => "Особый способ",
         "egg" => "Выращивание",
+        "breeding" => "Разведение",
+        "unavailable" => "Не приручается",
+        "unknown" => "Уточняется",
         _ => "Нет данных",
     }
 }

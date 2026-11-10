@@ -4,6 +4,10 @@ const absolute = path => new URL(path, self.registration.scope).href;
 const buildId = '__ARK_BUILD_ID__';
 const activeCache = `${prefix}${buildId}`;
 
+self.addEventListener('message', event => {
+  if (event.data?.type === 'ARK_ACTIVATE_UPDATE') event.waitUntil(self.skipWaiting());
+});
+
 self.addEventListener('install', event => {
   event.waitUntil((async () => {
     const response = await fetch(absolute('precache.json'), { cache: 'no-store' });
@@ -13,7 +17,7 @@ self.addEventListener('install', event => {
     const name = activeCache;
     const cache = await caches.open(name);
     try {
-      await cache.addAll(manifest.files.map(absolute));
+      await cache.addAll(manifest.files.map(path => new Request(absolute(path), { cache: 'reload' })));
       await cache.put(absolute('precache.json'), new Response(JSON.stringify(manifest), { headers: { 'Content-Type': 'application/json' } }));
     } catch (error) { await caches.delete(name); throw error; }
   })());

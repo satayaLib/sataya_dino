@@ -16,6 +16,10 @@ extern "C" {
     pub fn notify_change();
     #[wasm_bindgen(js_name = initializeBrowser)]
     pub fn initialize_browser();
+    #[wasm_bindgen(js_name = updateAvailable)]
+    pub fn update_available() -> bool;
+    #[wasm_bindgen(catch, js_name = activateUpdate)]
+    pub async fn activate_update() -> Result<(), JsValue>;
     #[wasm_bindgen(catch, js_name = readText)]
     pub async fn read_text(file: JsValue) -> Result<String, JsValue>;
     #[wasm_bindgen(catch, js_name = loadImage)]

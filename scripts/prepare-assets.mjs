@@ -31,6 +31,7 @@ const creatures = source.flatMap(({ games, ...c }) => games.map(game => ({
   ...c, game, id: `${game}:${c.pack_id}:${c.slug}`,
 })));
 await mkdir(path.join(root, 'public/data'), { recursive: true });
+await cp(path.join(root, 'data/portrait-index.json'), path.join(root, 'public/data/portrait-index.json'));
 await writeFile(path.join(root, 'public/data/catalog.json'), JSON.stringify({ version: 1, packs, creatures }));
 const files = [];
 async function walk(folder) {

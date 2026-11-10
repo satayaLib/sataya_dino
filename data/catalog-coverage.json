@@ -1,0 +1,5517 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-11-10",
+  "catalog_version": "catalog-2026-11-10.2",
+  "complete": false,
+  "scope": "Официальные существа базовой игры и DLC: основные виды/формы, постоянные варианты и боссы. Модовые 3 ASE + 2 ASA учитываются отдельно. Это инвентаризация по спискам существ и выбранным статьям wiki, а не полная проверка всех способов приручения.",
+  "counts": {
+    "ase": {
+      "cards": 376,
+      "official": 373,
+      "base": 203,
+      "variant": 142,
+      "boss": 28,
+      "mods": 3,
+      "partial": 329,
+      "own_guides": 47
+    },
+    "asa": {
+      "cards": 385,
+      "official": 383,
+      "base": 209,
+      "variant": 144,
+      "boss": 30,
+      "mods": 2,
+      "partial": 340,
+      "own_guides": 45
+    }
+  },
+  "inventory": {
+    "ase": [
+      {
+        "id": "ase:vanilla:aberrant-achatina",
+        "name": "Aberrant Achatina",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:aberrant-anglerfish",
+        "name": "Aberrant Anglerfish",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:aberrant-ankylosaurus",
+        "name": "Aberrant Ankylosaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:aberrant-araneo",
+        "name": "Aberrant Araneo",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:aberrant-arthropluera",
+        "name": "Aberrant Arthropluera",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:aberrant-baryonyx",
+        "name": "Aberrant Baryonyx",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:aberrant-beelzebufo",
+        "name": "Aberrant Beelzebufo",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:aberrant-carbonemys",
+        "name": "Aberrant Carbonemys",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:aberrant-carnotaurus",
+        "name": "Aberrant Carnotaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:aberrant-cnidaria",
+        "name": "Aberrant Cnidaria",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:aberrant-coelacanth",
+        "name": "Aberrant Coelacanth",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:aberrant-dimetrodon",
+        "name": "Aberrant Dimetrodon",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:aberrant-dimorphodon",
+        "name": "Aberrant Dimorphodon",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:aberrant-diplocaulus",
+        "name": "Aberrant Diplocaulus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:aberrant-diplodocus",
+        "name": "Aberrant Diplodocus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:aberrant-dire-bear",
+        "name": "Aberrant Dire Bear",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:aberrant-dodo",
+        "name": "Aberrant Dodo",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:aberrant-doedicurus",
+        "name": "Aberrant Doedicurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:aberrant-dung-beetle",
+        "name": "Aberrant Dung Beetle",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:aberrant-electrophorus",
+        "name": "Aberrant Electrophorus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:aberrant-equus",
+        "name": "Aberrant Equus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:aberrant-iguanodon",
+        "name": "Aberrant Iguanodon",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:aberrant-lystrosaurus",
+        "name": "Aberrant Lystrosaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:aberrant-manta",
+        "name": "Aberrant Manta",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:aberrant-megalania",
+        "name": "Aberrant Megalania",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Fjordur"
+      },
+      {
+        "id": "ase:vanilla:aberrant-megalosaurus",
+        "name": "Aberrant Megalosaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:aberrant-meganeura",
+        "name": "Aberrant Meganeura",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:aberrant-moschops",
+        "name": "Aberrant Moschops",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:aberrant-otter",
+        "name": "Aberrant Otter",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:aberrant-ovis",
+        "name": "Aberrant Ovis",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:aberrant-paraceratherium",
+        "name": "Aberrant Paraceratherium",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:aberrant-parasaur",
+        "name": "Aberrant Parasaur",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:aberrant-piranha",
+        "name": "Aberrant Piranha",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:aberrant-pulmonoscorpius",
+        "name": "Aberrant Pulmonoscorpius",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:aberrant-purlovia",
+        "name": "Aberrant Purlovia",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:aberrant-raptor",
+        "name": "Aberrant Raptor",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:aberrant-sabertooth-salmon",
+        "name": "Aberrant Sabertooth Salmon",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:aberrant-sarco",
+        "name": "Aberrant Sarco",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:aberrant-spino",
+        "name": "Aberrant Spino",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:aberrant-stegosaurus",
+        "name": "Aberrant Stegosaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:aberrant-titanoboa",
+        "name": "Aberrant Titanoboa",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:aberrant-triceratops",
+        "name": "Aberrant Triceratops",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:aberrant-trilobite",
+        "name": "Aberrant Trilobite",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:abyssal-alpha-t-rex",
+        "name": "Abyssal Alpha T-Rex",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aquatica"
+      },
+      {
+        "id": "ase:vanilla:abyssal-ankylosaurus",
+        "name": "Abyssal Ankylosaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aquatica"
+      },
+      {
+        "id": "ase:vanilla:abyssal-moschops",
+        "name": "Abyssal Moschops",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aquatica"
+      },
+      {
+        "id": "ase:vanilla:abyssal-procoptodon",
+        "name": "Abyssal Procoptodon",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aquatica"
+      },
+      {
+        "id": "ase:vanilla:abyssal-reaper-king",
+        "name": "Abyssal Reaper King",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aquatica"
+      },
+      {
+        "id": "ase:vanilla:abyssal-reaper-queen",
+        "name": "Abyssal Reaper Queen",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aquatica"
+      },
+      {
+        "id": "ase:vanilla:abyssal-rex",
+        "name": "Abyssal Rex",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aquatica"
+      },
+      {
+        "id": "ase:vanilla:abyssal-stegosaurus",
+        "name": "Abyssal Stegosaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aquatica"
+      },
+      {
+        "id": "ase:vanilla:abyssal-therizinosaur",
+        "name": "Abyssal Therizinosaur",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aquatica"
+      },
+      {
+        "id": "ase:vanilla:abyssal-thylacoleo",
+        "name": "Abyssal Thylacoleo",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aquatica"
+      },
+      {
+        "id": "ase:vanilla:abyssal-yutyrannus",
+        "name": "Abyssal Yutyrannus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aquatica"
+      },
+      {
+        "id": "ase:vanilla:achatina",
+        "name": "Achatina",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:allosaurus",
+        "name": "Allosaurus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:alpha-basilisk",
+        "name": "Alpha Basilisk",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:alpha-blood-crystal-wyvern",
+        "name": "Alpha Blood Crystal Wyvern",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Crystal_Isles"
+      },
+      {
+        "id": "ase:vanilla:alpha-carnotaurus",
+        "name": "Alpha Carnotaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:alpha-chrysaora",
+        "name": "Alpha Chrysaora",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aquatica"
+      },
+      {
+        "id": "ase:vanilla:alpha-dakosaurus",
+        "name": "Alpha Dakosaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aquatica"
+      },
+      {
+        "id": "ase:vanilla:alpha-deathworm",
+        "name": "Alpha Deathworm",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Scorched_Earth"
+      },
+      {
+        "id": "ase:vanilla:alpha-fire-wyvern",
+        "name": "Alpha Fire Wyvern",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Scorched_Earth"
+      },
+      {
+        "id": "ase:vanilla:alpha-karkinos",
+        "name": "Alpha Karkinos",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:alpha-leedsichthys",
+        "name": "Alpha Leedsichthys",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:alpha-malleocephalus",
+        "name": "Alpha Malleocephalus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aquatica"
+      },
+      {
+        "id": "ase:vanilla:alpha-megalodon",
+        "name": "Alpha Megalodon",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:alpha-mosasaur",
+        "name": "Alpha Mosasaur",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:alpha-raptor",
+        "name": "Alpha Raptor",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:alpha-surface-reaper-king",
+        "name": "Alpha Surface Reaper King",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:alpha-t-rex",
+        "name": "Alpha T-Rex",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:alpha-tridacna",
+        "name": "Alpha Tridacna",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aquatica"
+      },
+      {
+        "id": "ase:vanilla:alpha-tusoteuthis",
+        "name": "Alpha Tusoteuthis",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:alpha-water-wyvern",
+        "name": "Alpha Water Wyvern",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aquatica"
+      },
+      {
+        "id": "ase:vanilla:amargasaurus",
+        "name": "Amargasaurus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Lost_Island"
+      },
+      {
+        "id": "ase:vanilla:ammonite",
+        "name": "Ammonite",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:andrewsarchus",
+        "name": "Andrewsarchus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Fjordur"
+      },
+      {
+        "id": "ase:vanilla:anglerfish",
+        "name": "Anglerfish",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:ankylosaurus",
+        "name": "Ankylosaurus",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:araneo",
+        "name": "Araneo",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:archaeopteryx",
+        "name": "Archaeopteryx",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:argentavis",
+        "name": "Argentavis",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:arthropluera",
+        "name": "Arthropluera",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:astrocetus",
+        "name": "Astrocetus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "ase:vanilla:astrodelphis",
+        "name": "Astrodelphis",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_2"
+      },
+      {
+        "id": "ase:vanilla:attack-drone",
+        "name": "Attack Drone",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "ase:vanilla:baryonyx",
+        "name": "Baryonyx",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:basilisk",
+        "name": "Basilisk",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:basilosaurus",
+        "name": "Basilosaurus",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:beelzebufo",
+        "name": "Beelzebufo",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:beyla",
+        "name": "Beyla",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Fjordur"
+      },
+      {
+        "id": "ase:vanilla:blood-crystal-wyvern",
+        "name": "Blood Crystal Wyvern",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Crystal_Isles"
+      },
+      {
+        "id": "ase:vanilla:bloodstalker",
+        "name": "Bloodstalker",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "ase:vanilla:brontosaurus",
+        "name": "Brontosaurus",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:broodmother-lysrix",
+        "name": "Broodmother Lysrix",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:bulbdog",
+        "name": "Bulbdog",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:carbonemys",
+        "name": "Carbonemys",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:carcharodontosaurus",
+        "name": "Carcharodontosaurus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:carniflora",
+        "name": "Carniflora",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_2"
+      },
+      {
+        "id": "ase:vanilla:carnotaurus",
+        "name": "Carnotaurus",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:castoroides",
+        "name": "Castoroides",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:chalicotherium",
+        "name": "Chalicotherium",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:chalk-golem",
+        "name": "Chalk Golem",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Valguero"
+      },
+      {
+        "id": "ase:vanilla:chrysaora",
+        "name": "Chrysaora",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aquatica"
+      },
+      {
+        "id": "ase:vanilla:cnidaria",
+        "name": "Cnidaria",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:coelacanth",
+        "name": "Coelacanth",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:compy",
+        "name": "Compy",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:corrupted-arthropluera",
+        "name": "Corrupted Arthropluera",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "ase:vanilla:corrupted-carnotaurus",
+        "name": "Corrupted Carnotaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "ase:vanilla:corrupted-chalicotherium",
+        "name": "Corrupted Chalicotherium",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "ase:vanilla:corrupted-dilophosaur",
+        "name": "Corrupted Dilophosaur",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "ase:vanilla:corrupted-dimorphodon",
+        "name": "Corrupted Dimorphodon",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "ase:vanilla:corrupted-giganotosaurus",
+        "name": "Corrupted Giganotosaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "ase:vanilla:corrupted-master-controller",
+        "name": "Corrupted Master Controller",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "ase:vanilla:corrupted-paraceratherium",
+        "name": "Corrupted Paraceratherium",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "ase:vanilla:corrupted-pteranodon",
+        "name": "Corrupted Pteranodon",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "ase:vanilla:corrupted-raptor",
+        "name": "Corrupted Raptor",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "ase:vanilla:corrupted-rex",
+        "name": "Corrupted Rex",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "ase:vanilla:corrupted-rock-drake",
+        "name": "Corrupted Rock Drake",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "ase:vanilla:corrupted-spino",
+        "name": "Corrupted Spino",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "ase:vanilla:corrupted-stegosaurus",
+        "name": "Corrupted Stegosaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "ase:vanilla:corrupted-triceratops",
+        "name": "Corrupted Triceratops",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "ase:vanilla:corrupted-wyvern",
+        "name": "Corrupted Wyvern",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "ase:vanilla:crystal-wyvern-heir",
+        "name": "Crystal Wyvern Heir",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Crystal_Isles"
+      },
+      {
+        "id": "ase:vanilla:crystal-wyvern-queen",
+        "name": "Crystal Wyvern Queen",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Crystal_Isles"
+      },
+      {
+        "id": "ase:vanilla:cymathoa",
+        "name": "Cymathoa",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aquatica"
+      },
+      {
+        "id": "ase:vanilla:daeodon",
+        "name": "Daeodon",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:dakosaurus",
+        "name": "Dakosaurus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aquatica"
+      },
+      {
+        "id": "ase:vanilla:deathworm",
+        "name": "Deathworm",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Scorched_Earth"
+      },
+      {
+        "id": "ase:vanilla:defense-unit",
+        "name": "Defense Unit",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "ase:vanilla:deinonychus",
+        "name": "Deinonychus",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/Valguero"
+      },
+      {
+        "id": "ase:vanilla:desert-titan",
+        "name": "Desert Titan",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "ase:vanilla:desert-titan-flock",
+        "name": "Desert Titan Flock",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "ase:vanilla:desmodus",
+        "name": "Desmodus",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/Fjordur"
+      },
+      {
+        "id": "ase:vanilla:dilophosaur",
+        "name": "Dilophosaur",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:dimetrodon",
+        "name": "Dimetrodon",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:dimorphodon",
+        "name": "Dimorphodon",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:dinopithecus",
+        "name": "Dinopithecus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Lost_Island"
+      },
+      {
+        "id": "ase:vanilla:dinopithecus-king",
+        "name": "Dinopithecus King",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Lost_Island"
+      },
+      {
+        "id": "ase:vanilla:diplocaulus",
+        "name": "Diplocaulus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:diplodocus",
+        "name": "Diplodocus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:dire-bear",
+        "name": "Dire Bear",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:dire-polar-bear",
+        "name": "Dire Polar Bear",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Ragnarok"
+      },
+      {
+        "id": "ase:vanilla:direwolf",
+        "name": "Direwolf",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:diseased-leech",
+        "name": "Diseased Leech",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:dodo",
+        "name": "Dodo",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:doedicurus",
+        "name": "Doedicurus",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:dragon",
+        "name": "Dragon",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:dung-beetle",
+        "name": "Dung Beetle",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:dunkleosteus",
+        "name": "Dunkleosteus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:electrophorus",
+        "name": "Electrophorus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:ember-crystal-wyvern",
+        "name": "Ember Crystal Wyvern",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Crystal_Isles"
+      },
+      {
+        "id": "ase:vanilla:enforcer",
+        "name": "Enforcer",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "ase:vanilla:equus",
+        "name": "Equus",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:eurypterid",
+        "name": "Eurypterid",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:exo-mek",
+        "name": "Exo-Mek",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_2"
+      },
+      {
+        "id": "ase:vanilla:featherlight",
+        "name": "Featherlight",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:fenrir",
+        "name": "Fenrir",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Fjordur"
+      },
+      {
+        "id": "ase:vanilla:fenris-lfr",
+        "name": "Fenrisúlfr",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Fjordur"
+      },
+      {
+        "id": "ase:vanilla:ferox",
+        "name": "Ferox",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "ase:vanilla:fire-wyvern",
+        "name": "Fire Wyvern",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Scorched_Earth"
+      },
+      {
+        "id": "ase:vanilla:fjordhawk",
+        "name": "Fjordhawk",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/Fjordur"
+      },
+      {
+        "id": "ase:vanilla:forest-titan",
+        "name": "Forest Titan",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "ase:vanilla:forest-wyvern",
+        "name": "Forest Wyvern",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "ase:vanilla:fractalis",
+        "name": "Fractalis",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aquatica"
+      },
+      {
+        "id": "ase:vanilla:gacha",
+        "name": "Gacha",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "ase:vanilla:gallimimus",
+        "name": "Gallimimus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:gasbags",
+        "name": "Gasbags",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "ase:vanilla:giant-bee",
+        "name": "Giant Bee",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:giant-worker-bee",
+        "name": "Giant Worker Bee",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Crystal_Isles"
+      },
+      {
+        "id": "ase:vanilla:giganotosaurus",
+        "name": "Giganotosaurus",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:gigantopithecus",
+        "name": "Gigantopithecus",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:glowbug",
+        "name": "Glowbug",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:glowtail",
+        "name": "Glowtail",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:griffin",
+        "name": "Griffin",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Ragnarok"
+      },
+      {
+        "id": "ase:vanilla:hati-and-sk-ll",
+        "name": "Hati and Sköll",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Fjordur"
+      },
+      {
+        "id": "ase:vanilla:hesperornis",
+        "name": "Hesperornis",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:homarus",
+        "name": "Homarus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aquatica"
+      },
+      {
+        "id": "ase:vanilla:hyaenodon",
+        "name": "Hyaenodon",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:ice-golem",
+        "name": "Ice Golem",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Valguero"
+      },
+      {
+        "id": "ase:vanilla:ice-titan",
+        "name": "Ice Titan",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "ase:vanilla:ice-wyvern",
+        "name": "Ice Wyvern",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Ragnarok"
+      },
+      {
+        "id": "ase:vanilla:iceworm-male",
+        "name": "Iceworm Male",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Ragnarok"
+      },
+      {
+        "id": "ase:vanilla:iceworm-queen",
+        "name": "Iceworm Queen",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Ragnarok"
+      },
+      {
+        "id": "ase:vanilla:ichthyornis",
+        "name": "Ichthyornis",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:ichthyosaurus",
+        "name": "Ichthyosaurus",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:iguanodon",
+        "name": "Iguanodon",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:insect-swarm",
+        "name": "Insect Swarm",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "ase:vanilla:istiophorus",
+        "name": "Istiophorus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aquatica"
+      },
+      {
+        "id": "ase:vanilla:jerboa",
+        "name": "Jerboa",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Scorched_Earth"
+      },
+      {
+        "id": "ase:vanilla:kairuku",
+        "name": "Kairuku",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:kaprosuchus",
+        "name": "Kaprosuchus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:karkinos",
+        "name": "Karkinos",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:kathreptis",
+        "name": "Kathreptis",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aquatica"
+      },
+      {
+        "id": "ase:vanilla:kentrosaurus",
+        "name": "Kentrosaurus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:king-titan",
+        "name": "King Titan",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "ase:vanilla:lamprey",
+        "name": "Lamprey",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:lava-elemental",
+        "name": "Lava Elemental",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Ragnarok"
+      },
+      {
+        "id": "ase:vanilla:leech",
+        "name": "Leech",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:leedsichthys",
+        "name": "Leedsichthys",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:lightning-wyvern",
+        "name": "Lightning Wyvern",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Scorched_Earth"
+      },
+      {
+        "id": "ase:vanilla:liopleurodon",
+        "name": "Liopleurodon",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:lymantria",
+        "name": "Lymantria",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Scorched_Earth"
+      },
+      {
+        "id": "ase:vanilla:lystrosaurus",
+        "name": "Lystrosaurus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:macrophage",
+        "name": "Macrophage",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_2"
+      },
+      {
+        "id": "ase:vanilla:maewing",
+        "name": "Maewing",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_2"
+      },
+      {
+        "id": "ase:vanilla:magmasaur",
+        "name": "Magmasaur",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "ase:vanilla:malleocephalus",
+        "name": "Malleocephalus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aquatica"
+      },
+      {
+        "id": "ase:vanilla:mammoth",
+        "name": "Mammoth",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:managarmr",
+        "name": "Managarmr",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "ase:vanilla:manta",
+        "name": "Manta",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:manticore",
+        "name": "Manticore",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Scorched_Earth"
+      },
+      {
+        "id": "ase:vanilla:mantis",
+        "name": "Mantis",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Scorched_Earth"
+      },
+      {
+        "id": "ase:vanilla:mantis-shrimp",
+        "name": "Mantis Shrimp",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aquatica"
+      },
+      {
+        "id": "ase:vanilla:mega-mek",
+        "name": "Mega Mek",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "ase:vanilla:megachelon",
+        "name": "Megachelon",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "ase:vanilla:megalania",
+        "name": "Megalania",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:megaloceros",
+        "name": "Megaloceros",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:megalodon",
+        "name": "Megalodon",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:megalosaurus",
+        "name": "Megalosaurus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:meganeura",
+        "name": "Meganeura",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:megapithecus",
+        "name": "Megapithecus",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:megatherium",
+        "name": "Megatherium",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:mek",
+        "name": "Mek",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "ase:vanilla:mesopithecus",
+        "name": "Mesopithecus",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:microraptor",
+        "name": "Microraptor",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:moeder-master-of-the-ocean",
+        "name": "Moeder, Master of the Ocean",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "ase:vanilla:monodon",
+        "name": "Monodon",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aquatica"
+      },
+      {
+        "id": "ase:vanilla:morellatops",
+        "name": "Morellatops",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Scorched_Earth"
+      },
+      {
+        "id": "ase:vanilla:mosasaurus",
+        "name": "Mosasaurus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:moschops",
+        "name": "Moschops",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:mudpuppy",
+        "name": "Mudpuppy",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aquatica"
+      },
+      {
+        "id": "ase:vanilla:nameless",
+        "name": "Nameless",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:noglin",
+        "name": "Noglin",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_2"
+      },
+      {
+        "id": "ase:vanilla:ocepechelon",
+        "name": "Ocepechelon",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aquatica"
+      },
+      {
+        "id": "ase:vanilla:oil-jug-bug",
+        "name": "Oil Jug Bug",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Scorched_Earth"
+      },
+      {
+        "id": "ase:vanilla:onchopristis",
+        "name": "Onchopristis",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aquatica"
+      },
+      {
+        "id": "ase:vanilla:onyc",
+        "name": "Onyc",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:otter",
+        "name": "Otter",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:overseer",
+        "name": "Overseer",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:oviraptor",
+        "name": "Oviraptor",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:ovis",
+        "name": "Ovis",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:pachy",
+        "name": "Pachy",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:pachyrhinosaurus",
+        "name": "Pachyrhinosaurus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:paraceratherium",
+        "name": "Paraceratherium",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:parakeet-fish-school",
+        "name": "Parakeet Fish School",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "ase:vanilla:parasaur",
+        "name": "Parasaur",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:pegomastax",
+        "name": "Pegomastax",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:pelagornis",
+        "name": "Pelagornis",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:phiomia",
+        "name": "Phiomia",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:phoenix",
+        "name": "Phoenix",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/Scorched_Earth"
+      },
+      {
+        "id": "ase:vanilla:piranha",
+        "name": "Piranha",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:plesiosaur",
+        "name": "Plesiosaur",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:poison-wyvern",
+        "name": "Poison Wyvern",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Scorched_Earth"
+      },
+      {
+        "id": "ase:vanilla:polar-bear",
+        "name": "Polar Bear",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:polar-purlovia",
+        "name": "Polar Purlovia",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:procoptodon",
+        "name": "Procoptodon",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:pteranodon",
+        "name": "Pteranodon",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:pulmonoscorpius",
+        "name": "Pulmonoscorpius",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:purlovia",
+        "name": "Purlovia",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:pygocentrus",
+        "name": "Pygocentrus",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aquatica"
+      },
+      {
+        "id": "ase:vanilla:qarmoutus",
+        "name": "Qarmoutus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aquatica"
+      },
+      {
+        "id": "ase:vanilla:quetzal",
+        "name": "Quetzal",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:r-allosaurus",
+        "name": "R-Allosaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_2"
+      },
+      {
+        "id": "ase:vanilla:r-brontosaurus",
+        "name": "R-Brontosaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_2"
+      },
+      {
+        "id": "ase:vanilla:r-carbonemys",
+        "name": "R-Carbonemys",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_2"
+      },
+      {
+        "id": "ase:vanilla:r-carnotaurus",
+        "name": "R-Carnotaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_2"
+      },
+      {
+        "id": "ase:vanilla:r-daeodon",
+        "name": "R-Daeodon",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_2"
+      },
+      {
+        "id": "ase:vanilla:r-dilophosaur",
+        "name": "R-Dilophosaur",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_2"
+      },
+      {
+        "id": "ase:vanilla:r-direwolf",
+        "name": "R-Direwolf",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_2"
+      },
+      {
+        "id": "ase:vanilla:r-equus",
+        "name": "R-Equus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_2"
+      },
+      {
+        "id": "ase:vanilla:r-gasbags",
+        "name": "R-Gasbags",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_2"
+      },
+      {
+        "id": "ase:vanilla:r-giganotosaurus",
+        "name": "R-Giganotosaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_2"
+      },
+      {
+        "id": "ase:vanilla:r-megatherium",
+        "name": "R-Megatherium",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_2"
+      },
+      {
+        "id": "ase:vanilla:r-parasaur",
+        "name": "R-Parasaur",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_2"
+      },
+      {
+        "id": "ase:vanilla:r-procoptodon",
+        "name": "R-Procoptodon",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_2"
+      },
+      {
+        "id": "ase:vanilla:r-quetzal",
+        "name": "R-Quetzal",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_2"
+      },
+      {
+        "id": "ase:vanilla:r-reaper-king",
+        "name": "R-Reaper King",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_2"
+      },
+      {
+        "id": "ase:vanilla:r-reaper-queen",
+        "name": "R-Reaper Queen",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_2"
+      },
+      {
+        "id": "ase:vanilla:r-snow-owl",
+        "name": "R-Snow Owl",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_2"
+      },
+      {
+        "id": "ase:vanilla:r-thylacoleo",
+        "name": "R-Thylacoleo",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_2"
+      },
+      {
+        "id": "ase:vanilla:r-velonasaur",
+        "name": "R-Velonasaur",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_2"
+      },
+      {
+        "id": "ase:vanilla:raptor",
+        "name": "Raptor",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:ravager",
+        "name": "Ravager",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:reaper-king",
+        "name": "Reaper King",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:reaper-queen",
+        "name": "Reaper Queen",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:rex",
+        "name": "Rex",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:rhyniognatha",
+        "name": "Rhyniognatha",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:riftcrawler",
+        "name": "Riftcrawler",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aquatica"
+      },
+      {
+        "id": "ase:vanilla:riftwalker",
+        "name": "Riftwalker",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aquatica"
+      },
+      {
+        "id": "ase:vanilla:rock-drake",
+        "name": "Rock Drake",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:rock-elemental",
+        "name": "Rock Elemental",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Scorched_Earth"
+      },
+      {
+        "id": "ase:vanilla:rockwell",
+        "name": "Rockwell",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:rockwell-prime",
+        "name": "Rockwell Prime",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_2"
+      },
+      {
+        "id": "ase:vanilla:roll-rat",
+        "name": "Roll Rat",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:rubble-bear",
+        "name": "Rubble Bear",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Fjordur"
+      },
+      {
+        "id": "ase:vanilla:rubble-golem",
+        "name": "Rubble Golem",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Scorched_Earth"
+      },
+      {
+        "id": "ase:vanilla:sabertooth",
+        "name": "Sabertooth",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:sabertooth-salmon",
+        "name": "Sabertooth Salmon",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:sarco",
+        "name": "Sarco",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:scout",
+        "name": "Scout",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "ase:vanilla:seahorse",
+        "name": "Seahorse",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aquatica"
+      },
+      {
+        "id": "ase:vanilla:seeker",
+        "name": "Seeker",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:shadowmane",
+        "name": "Shadowmane",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_2"
+      },
+      {
+        "id": "ase:vanilla:shinehorn",
+        "name": "Shinehorn",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:sinomacrops",
+        "name": "Sinomacrops",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Lost_Island"
+      },
+      {
+        "id": "ase:vanilla:snow-owl",
+        "name": "Snow Owl",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "ase:vanilla:spino",
+        "name": "Spino",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:spirit-dire-bear",
+        "name": "Spirit Dire Bear",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Ragnarok"
+      },
+      {
+        "id": "ase:vanilla:spirit-direwolf",
+        "name": "Spirit Direwolf",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Ragnarok"
+      },
+      {
+        "id": "ase:vanilla:stegosaurus",
+        "name": "Stegosaurus",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:steinbj-rn",
+        "name": "Steinbjörn",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Fjordur"
+      },
+      {
+        "id": "ase:vanilla:stereolepis",
+        "name": "Stereolepis",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aquatica"
+      },
+      {
+        "id": "ase:vanilla:subterranean-reaper-king",
+        "name": "Subterranean Reaper King",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:summoner",
+        "name": "Summoner",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_2"
+      },
+      {
+        "id": "ase:vanilla:surface-reaper-king",
+        "name": "Surface Reaper King",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "ase:vanilla:takifugu",
+        "name": "Takifugu",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aquatica"
+      },
+      {
+        "id": "ase:vanilla:tapejara",
+        "name": "Tapejara",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:tek-parasaur",
+        "name": "Tek Parasaur",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "ase:vanilla:tek-quetzal",
+        "name": "Tek Quetzal",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "ase:vanilla:tek-raptor",
+        "name": "Tek Raptor",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "ase:vanilla:tek-rex",
+        "name": "Tek Rex",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "ase:vanilla:tek-stegosaurus",
+        "name": "Tek Stegosaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "ase:vanilla:tek-stryder",
+        "name": "Tek Stryder",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_2"
+      },
+      {
+        "id": "ase:vanilla:tek-triceratops",
+        "name": "Tek Triceratops",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "ase:vanilla:terror-bird",
+        "name": "Terror Bird",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:therizinosaur",
+        "name": "Therizinosaur",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:thorny-dragon",
+        "name": "Thorny Dragon",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Scorched_Earth"
+      },
+      {
+        "id": "ase:vanilla:thunnus",
+        "name": "Thunnus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aquatica"
+      },
+      {
+        "id": "ase:vanilla:thylacoleo",
+        "name": "Thylacoleo",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:tiktaalik",
+        "name": "Tiktaalik",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aquatica"
+      },
+      {
+        "id": "ase:vanilla:titanoboa",
+        "name": "Titanoboa",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:titanomyrma",
+        "name": "Titanomyrma",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:titanosaur",
+        "name": "Titanosaur",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:triceratops",
+        "name": "Triceratops",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:tridacna",
+        "name": "Tridacna",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aquatica"
+      },
+      {
+        "id": "ase:vanilla:trilobite",
+        "name": "Trilobite",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:troodon",
+        "name": "Troodon",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:tropeognathus",
+        "name": "Tropeognathus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Crystal_Isles"
+      },
+      {
+        "id": "ase:vanilla:tropical-crystal-wyvern",
+        "name": "Tropical Crystal Wyvern",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Crystal_Isles"
+      },
+      {
+        "id": "ase:vanilla:tusoteuthis",
+        "name": "Tusoteuthis",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:unicorn",
+        "name": "Unicorn",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:velonasaur",
+        "name": "Velonasaur",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "ase:vanilla:voidwyrm",
+        "name": "Voidwyrm",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_2"
+      },
+      {
+        "id": "ase:vanilla:vulcanite",
+        "name": "Vulcanite",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aquatica"
+      },
+      {
+        "id": "ase:vanilla:vulcanithys",
+        "name": "Vulcanithys",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aquatica"
+      },
+      {
+        "id": "ase:vanilla:vulture",
+        "name": "Vulture",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Scorched_Earth"
+      },
+      {
+        "id": "ase:vanilla:water-jug-bug",
+        "name": "Water Jug Bug",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Scorched_Earth"
+      },
+      {
+        "id": "ase:vanilla:water-wyvern",
+        "name": "Water Wyvern",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aquatica"
+      },
+      {
+        "id": "ase:vanilla:woolly-rhino",
+        "name": "Woolly Rhino",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:x-allosaurus",
+        "name": "X-Allosaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "ase:vanilla:x-ankylosaurus",
+        "name": "X-Ankylosaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "ase:vanilla:x-argentavis",
+        "name": "X-Argentavis",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "ase:vanilla:x-basilosaurus",
+        "name": "X-Basilosaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "ase:vanilla:x-dunkleosteus",
+        "name": "X-Dunkleosteus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "ase:vanilla:x-ichthyosaurus",
+        "name": "X-Ichthyosaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "ase:vanilla:x-megalodon",
+        "name": "X-Megalodon",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "ase:vanilla:x-mosasaurus",
+        "name": "X-Mosasaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "ase:vanilla:x-otter",
+        "name": "X-Otter",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "ase:vanilla:x-paraceratherium",
+        "name": "X-Paraceratherium",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "ase:vanilla:x-parasaur",
+        "name": "X-Parasaur",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "ase:vanilla:x-raptor",
+        "name": "X-Raptor",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "ase:vanilla:x-rex",
+        "name": "X-Rex",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "ase:vanilla:x-rock-elemental",
+        "name": "X-Rock Elemental",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "ase:vanilla:x-sabertooth",
+        "name": "X-Sabertooth",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "ase:vanilla:x-sabertooth-salmon",
+        "name": "X-Sabertooth Salmon",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "ase:vanilla:x-spino",
+        "name": "X-Spino",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "ase:vanilla:x-tapejara",
+        "name": "X-Tapejara",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "ase:vanilla:x-triceratops",
+        "name": "X-Triceratops",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "ase:vanilla:x-woolly-rhino",
+        "name": "X-Woolly Rhino",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "ase:vanilla:x-yutyrannus",
+        "name": "X-Yutyrannus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "ase:vanilla:yeti",
+        "name": "Yeti",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:vanilla:yutyrannus",
+        "name": "Yutyrannus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "ase:ark-additions:brachiosaurus",
+        "name": "Brachiosaurus",
+        "kind": "mod",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/Mod:ARK_Additions/Brachiosaurus"
+      },
+      {
+        "id": "ase:ark-additions:deinosuchus",
+        "name": "Deinosuchus",
+        "kind": "mod",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/Mod:ARK_Additions/Deinosuchus"
+      },
+      {
+        "id": "ase:ark-additions:deinotherium",
+        "name": "Deinotherium",
+        "kind": "mod",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/Mod:ARK_Additions/Deinotherium"
+      }
+    ],
+    "asa": [
+      {
+        "id": "asa:vanilla:aberrant-achatina",
+        "name": "Aberrant Achatina",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-anglerfish",
+        "name": "Aberrant Anglerfish",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-ankylosaurus",
+        "name": "Aberrant Ankylosaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-araneo",
+        "name": "Aberrant Araneo",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-arthropluera",
+        "name": "Aberrant Arthropluera",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-baryonyx",
+        "name": "Aberrant Baryonyx",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-beelzebufo",
+        "name": "Aberrant Beelzebufo",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-carbonemys",
+        "name": "Aberrant Carbonemys",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-carnotaurus",
+        "name": "Aberrant Carnotaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-cnidaria",
+        "name": "Aberrant Cnidaria",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-coelacanth",
+        "name": "Aberrant Coelacanth",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-concavenator",
+        "name": "Aberrant Concavenator",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-dimetrodon",
+        "name": "Aberrant Dimetrodon",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-dimorphodon",
+        "name": "Aberrant Dimorphodon",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-diplocaulus",
+        "name": "Aberrant Diplocaulus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-diplodocus",
+        "name": "Aberrant Diplodocus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-dire-bear",
+        "name": "Aberrant Dire Bear",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-dodo",
+        "name": "Aberrant Dodo",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-doedicurus",
+        "name": "Aberrant Doedicurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-dung-beetle",
+        "name": "Aberrant Dung Beetle",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-electrophorus",
+        "name": "Aberrant Electrophorus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-equus",
+        "name": "Aberrant Equus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-fasolasuchus",
+        "name": "Aberrant Fasolasuchus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-gigantoraptor",
+        "name": "Aberrant Gigantoraptor",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-iguanodon",
+        "name": "Aberrant Iguanodon",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-lystrosaurus",
+        "name": "Aberrant Lystrosaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-manta",
+        "name": "Aberrant Manta",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-megalania",
+        "name": "Aberrant Megalania",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-megalosaurus",
+        "name": "Aberrant Megalosaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-meganeura",
+        "name": "Aberrant Meganeura",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-moschops",
+        "name": "Aberrant Moschops",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-otter",
+        "name": "Aberrant Otter",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-oviraptor",
+        "name": "Aberrant Oviraptor",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-ovis",
+        "name": "Aberrant Ovis",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-paraceratherium",
+        "name": "Aberrant Paraceratherium",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-parasaur",
+        "name": "Aberrant Parasaur",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-piranha",
+        "name": "Aberrant Piranha",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-pulmonoscorpius",
+        "name": "Aberrant Pulmonoscorpius",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-purlovia",
+        "name": "Aberrant Purlovia",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-raptor",
+        "name": "Aberrant Raptor",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-sabertooth-salmon",
+        "name": "Aberrant Sabertooth Salmon",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-sarco",
+        "name": "Aberrant Sarco",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-spino",
+        "name": "Aberrant Spino",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-stegosaurus",
+        "name": "Aberrant Stegosaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-titanoboa",
+        "name": "Aberrant Titanoboa",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-triceratops",
+        "name": "Aberrant Triceratops",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:aberrant-trilobite",
+        "name": "Aberrant Trilobite",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:abyssalus",
+        "name": "Abyssalus",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Astraeos"
+      },
+      {
+        "id": "asa:vanilla:achatina",
+        "name": "Achatina",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:acrocanthosaurus",
+        "name": "Acrocanthosaurus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:allosaurus",
+        "name": "Allosaurus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:alpha-basilisk",
+        "name": "Alpha Basilisk",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:alpha-carnotaurus",
+        "name": "Alpha Carnotaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:alpha-deathworm",
+        "name": "Alpha Deathworm",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Scorched_Earth"
+      },
+      {
+        "id": "asa:vanilla:alpha-fire-wyvern",
+        "name": "Alpha Fire Wyvern",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Scorched_Earth"
+      },
+      {
+        "id": "asa:vanilla:alpha-karkinos",
+        "name": "Alpha Karkinos",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:alpha-leedsichthys",
+        "name": "Alpha Leedsichthys",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:alpha-megalodon",
+        "name": "Alpha Megalodon",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:alpha-mosasaur",
+        "name": "Alpha Mosasaur",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:alpha-ossidon",
+        "name": "Alpha Ossidon",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Lost_Colony"
+      },
+      {
+        "id": "asa:vanilla:alpha-palaeoctopus",
+        "name": "Alpha Palaeoctopus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "asa:vanilla:alpha-raptor",
+        "name": "Alpha Raptor",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:alpha-surface-reaper-king",
+        "name": "Alpha Surface Reaper King",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:alpha-t-rex",
+        "name": "Alpha T-Rex",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:alpha-tusoteuthis",
+        "name": "Alpha Tusoteuthis",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:ammonite",
+        "name": "Ammonite",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:anglerfish",
+        "name": "Anglerfish",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:ankylosaurus",
+        "name": "Ankylosaurus",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:araneo",
+        "name": "Araneo",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:archaeopteryx",
+        "name": "Archaeopteryx",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:archelon",
+        "name": "Archelon",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:argentavis",
+        "name": "Argentavis",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:armadoggo",
+        "name": "Armadoggo",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "asa:vanilla:arthropluera",
+        "name": "Arthropluera",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:astrocetus",
+        "name": "Astrocetus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "asa:vanilla:attack-drone",
+        "name": "Attack Drone",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "asa:vanilla:aureliax",
+        "name": "Aureliax",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Lost_Colony"
+      },
+      {
+        "id": "asa:vanilla:autumn-drakeling",
+        "name": "Autumn Drakeling",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Ragnarok"
+      },
+      {
+        "id": "asa:vanilla:baryonyx",
+        "name": "Baryonyx",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:basilisk",
+        "name": "Basilisk",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:basilosaurus",
+        "name": "Basilosaurus",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:beelzebufo",
+        "name": "Beelzebufo",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:bison",
+        "name": "Bison",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Ragnarok"
+      },
+      {
+        "id": "asa:vanilla:bloodstalker",
+        "name": "Bloodstalker",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "asa:vanilla:boaratos",
+        "name": "Boaratos",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Astraeos"
+      },
+      {
+        "id": "asa:vanilla:brontosaurus",
+        "name": "Brontosaurus",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:broodmother-lysrix",
+        "name": "Broodmother Lysrix",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:bulbdog",
+        "name": "Bulbdog",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:burrowbuck",
+        "name": "Burrowbuck",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:carbonemys",
+        "name": "Carbonemys",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:carcharodontosaurus",
+        "name": "Carcharodontosaurus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:carnotaurus",
+        "name": "Carnotaurus",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:castoroides",
+        "name": "Castoroides",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:cat",
+        "name": "Cat",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:ceratosaurus",
+        "name": "Ceratosaurus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:cerberax",
+        "name": "Cerberax",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Center"
+      },
+      {
+        "id": "asa:vanilla:chalicotherium",
+        "name": "Chalicotherium",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:chalk-golem",
+        "name": "Chalk Golem",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Valguero"
+      },
+      {
+        "id": "asa:vanilla:cnidaria",
+        "name": "Cnidaria",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:coelacanth",
+        "name": "Coelacanth",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:colossus",
+        "name": "Colossus",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Astraeos"
+      },
+      {
+        "id": "asa:vanilla:compy",
+        "name": "Compy",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:concavenator",
+        "name": "Concavenator",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Scorched_Earth"
+      },
+      {
+        "id": "asa:vanilla:corrupted-arthropluera",
+        "name": "Corrupted Arthropluera",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "asa:vanilla:corrupted-carnotaurus",
+        "name": "Corrupted Carnotaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "asa:vanilla:corrupted-chalicotherium",
+        "name": "Corrupted Chalicotherium",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "asa:vanilla:corrupted-dilophosaur",
+        "name": "Corrupted Dilophosaur",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "asa:vanilla:corrupted-dimorphodon",
+        "name": "Corrupted Dimorphodon",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "asa:vanilla:corrupted-giganotosaurus",
+        "name": "Corrupted Giganotosaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "asa:vanilla:corrupted-master-controller",
+        "name": "Corrupted Master Controller",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "asa:vanilla:corrupted-paraceratherium",
+        "name": "Corrupted Paraceratherium",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "asa:vanilla:corrupted-pteranodon",
+        "name": "Corrupted Pteranodon",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "asa:vanilla:corrupted-raptor",
+        "name": "Corrupted Raptor",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "asa:vanilla:corrupted-rex",
+        "name": "Corrupted Rex",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "asa:vanilla:corrupted-rock-drake",
+        "name": "Corrupted Rock Drake",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "asa:vanilla:corrupted-spino",
+        "name": "Corrupted Spino",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "asa:vanilla:corrupted-stegosaurus",
+        "name": "Corrupted Stegosaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "asa:vanilla:corrupted-triceratops",
+        "name": "Corrupted Triceratops",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "asa:vanilla:corrupted-wyvern",
+        "name": "Corrupted Wyvern",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "asa:vanilla:cosmo",
+        "name": "Cosmo",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:cryolophosaurus",
+        "name": "Cryolophosaurus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Lost_Colony"
+      },
+      {
+        "id": "asa:vanilla:daeodon",
+        "name": "Daeodon",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:deathworm",
+        "name": "Deathworm",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Scorched_Earth"
+      },
+      {
+        "id": "asa:vanilla:defense-unit",
+        "name": "Defense Unit",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "asa:vanilla:deinonychus",
+        "name": "Deinonychus",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/Valguero"
+      },
+      {
+        "id": "asa:vanilla:deinosuchus",
+        "name": "Deinosuchus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:deinotherium",
+        "name": "Deinotherium",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:desert-titan",
+        "name": "Desert Titan",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "asa:vanilla:desert-titan-flock",
+        "name": "Desert Titan Flock",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "asa:vanilla:desmodus",
+        "name": "Desmodus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Lost_Colony"
+      },
+      {
+        "id": "asa:vanilla:dilophosaur",
+        "name": "Dilophosaur",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:dimetrodon",
+        "name": "Dimetrodon",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:dimorphodon",
+        "name": "Dimorphodon",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:diplocaulus",
+        "name": "Diplocaulus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:diplodocus",
+        "name": "Diplodocus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:dire-bear",
+        "name": "Dire Bear",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:dire-polar-bear",
+        "name": "Dire Polar Bear",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Ragnarok"
+      },
+      {
+        "id": "asa:vanilla:direwolf",
+        "name": "Direwolf",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:diseased-leech",
+        "name": "Diseased Leech",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:dodo",
+        "name": "Dodo",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:doedicurus",
+        "name": "Doedicurus",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:dragon",
+        "name": "Dragon",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:dreadmare",
+        "name": "Dreadmare",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Center"
+      },
+      {
+        "id": "asa:vanilla:dreadnoughtus",
+        "name": "Dreadnoughtus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "asa:vanilla:dung-beetle",
+        "name": "Dung Beetle",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:dunkleosteus",
+        "name": "Dunkleosteus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:elderclaw",
+        "name": "Elderclaw",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Valguero"
+      },
+      {
+        "id": "asa:vanilla:electrophorus",
+        "name": "Electrophorus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:enforcer",
+        "name": "Enforcer",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "asa:vanilla:enigmasaur",
+        "name": "Enigmasaur",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Center"
+      },
+      {
+        "id": "asa:vanilla:equus",
+        "name": "Equus",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:erymanthian-kalydonios",
+        "name": "Erymanthian & Kalydonios",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Astraeos"
+      },
+      {
+        "id": "asa:vanilla:eurypterid",
+        "name": "Eurypterid",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:fasolasuchus",
+        "name": "Fasolasuchus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Scorched_Earth"
+      },
+      {
+        "id": "asa:vanilla:featherlight",
+        "name": "Featherlight",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:ferox",
+        "name": "Ferox",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "asa:vanilla:fire-wyvern",
+        "name": "Fire Wyvern",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Scorched_Earth"
+      },
+      {
+        "id": "asa:vanilla:forest-titan",
+        "name": "Forest Titan",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "asa:vanilla:forest-wyvern",
+        "name": "Forest Wyvern",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "asa:vanilla:gacha",
+        "name": "Gacha",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "asa:vanilla:gallimimus",
+        "name": "Gallimimus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:gargantar",
+        "name": "Gargantar",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Center"
+      },
+      {
+        "id": "asa:vanilla:gasbags",
+        "name": "Gasbags",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "asa:vanilla:giant-bee",
+        "name": "Giant Bee",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:gigadesmodus",
+        "name": "Gigadesmodus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Lost_Colony"
+      },
+      {
+        "id": "asa:vanilla:giganotosaurus",
+        "name": "Giganotosaurus",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:gigantopithecus",
+        "name": "Gigantopithecus",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:gigantoraptor",
+        "name": "Gigantoraptor",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:gloon",
+        "name": "Gloon",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Lost_Colony"
+      },
+      {
+        "id": "asa:vanilla:glowbug",
+        "name": "Glowbug",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:glowtail",
+        "name": "Glowtail",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:grand-tortugar",
+        "name": "Grand Tortugar",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Astraeos"
+      },
+      {
+        "id": "asa:vanilla:grendel",
+        "name": "Grendel",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Valguero"
+      },
+      {
+        "id": "asa:vanilla:griffin",
+        "name": "Griffin",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Ragnarok"
+      },
+      {
+        "id": "asa:vanilla:helicoprion",
+        "name": "Helicoprion",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:hesperornis",
+        "name": "Hesperornis",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:hyaenodon",
+        "name": "Hyaenodon",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:hydraskos",
+        "name": "Hydraskos",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Astraeos"
+      },
+      {
+        "id": "asa:vanilla:ice-golem",
+        "name": "Ice Golem",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Valguero"
+      },
+      {
+        "id": "asa:vanilla:ice-titan",
+        "name": "Ice Titan",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "asa:vanilla:ice-wyvern",
+        "name": "Ice Wyvern",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Ragnarok"
+      },
+      {
+        "id": "asa:vanilla:iceworm-male",
+        "name": "Iceworm Male",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Ragnarok"
+      },
+      {
+        "id": "asa:vanilla:iceworm-queen",
+        "name": "Iceworm Queen",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Ragnarok"
+      },
+      {
+        "id": "asa:vanilla:ichthyornis",
+        "name": "Ichthyornis",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:ichthyosaurus",
+        "name": "Ichthyosaurus",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:iguanodon",
+        "name": "Iguanodon",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:insect-swarm",
+        "name": "Insect Swarm",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "asa:vanilla:jerboa",
+        "name": "Jerboa",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Scorched_Earth"
+      },
+      {
+        "id": "asa:vanilla:kairuku",
+        "name": "Kairuku",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:kaprosuchus",
+        "name": "Kaprosuchus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:karkinos",
+        "name": "Karkinos",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:kentrosaurus",
+        "name": "Kentrosaurus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:king-titan",
+        "name": "King Titan",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "asa:vanilla:kirayli",
+        "name": "Kirayli",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Astraeos"
+      },
+      {
+        "id": "asa:vanilla:kroaratos",
+        "name": "Kroaratos",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Astraeos"
+      },
+      {
+        "id": "asa:vanilla:lamprey",
+        "name": "Lamprey",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:lava-elemental",
+        "name": "Lava Elemental",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Ragnarok"
+      },
+      {
+        "id": "asa:vanilla:leech",
+        "name": "Leech",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:leedsichthys",
+        "name": "Leedsichthys",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:lightning-wyvern",
+        "name": "Lightning Wyvern",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Scorched_Earth"
+      },
+      {
+        "id": "asa:vanilla:liopleurodon",
+        "name": "Liopleurodon",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:lost-king",
+        "name": "Lost King",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Lost_Colony"
+      },
+      {
+        "id": "asa:vanilla:lost-queen",
+        "name": "Lost Queen",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Lost_Colony"
+      },
+      {
+        "id": "asa:vanilla:lumina",
+        "name": "Lumina",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Center"
+      },
+      {
+        "id": "asa:vanilla:lymantria",
+        "name": "Lymantria",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Scorched_Earth"
+      },
+      {
+        "id": "asa:vanilla:lystrosaurus",
+        "name": "Lystrosaurus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:maeguana",
+        "name": "Maeguana",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Astraeos"
+      },
+      {
+        "id": "asa:vanilla:magmasaur",
+        "name": "Magmasaur",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "asa:vanilla:malwyn",
+        "name": "Malwyn",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Lost_Colony"
+      },
+      {
+        "id": "asa:vanilla:mammoth",
+        "name": "Mammoth",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:managarmr",
+        "name": "Managarmr",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "asa:vanilla:manta",
+        "name": "Manta",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:manticore",
+        "name": "Manticore",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Scorched_Earth"
+      },
+      {
+        "id": "asa:vanilla:mantis",
+        "name": "Mantis",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Scorched_Earth"
+      },
+      {
+        "id": "asa:vanilla:mega-mek",
+        "name": "Mega Mek",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "asa:vanilla:megachelon",
+        "name": "Megachelon",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "asa:vanilla:megalania",
+        "name": "Megalania",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:megaloceros",
+        "name": "Megaloceros",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:megalodon",
+        "name": "Megalodon",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:megalosaurus",
+        "name": "Megalosaurus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:meganeura",
+        "name": "Meganeura",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:megapithecus",
+        "name": "Megapithecus",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:megaraptor",
+        "name": "Megaraptor",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Valguero"
+      },
+      {
+        "id": "asa:vanilla:megatherium",
+        "name": "Megatherium",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:mek",
+        "name": "Mek",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "asa:vanilla:mesopithecus",
+        "name": "Mesopithecus",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:microraptor",
+        "name": "Microraptor",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:minotarchos",
+        "name": "Minotarchos",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Astraeos"
+      },
+      {
+        "id": "asa:vanilla:minotaur",
+        "name": "Minotaur",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Astraeos"
+      },
+      {
+        "id": "asa:vanilla:moeder-master-of-the-ocean",
+        "name": "Moeder, Master of the Ocean",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "asa:vanilla:morellatops",
+        "name": "Morellatops",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Scorched_Earth"
+      },
+      {
+        "id": "asa:vanilla:mosasaurus",
+        "name": "Mosasaurus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:moschops",
+        "name": "Moschops",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:nameless",
+        "name": "Nameless",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:natrix",
+        "name": "Natrix",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Astraeos"
+      },
+      {
+        "id": "asa:vanilla:neophyte",
+        "name": "Neophyte",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Lost_Colony"
+      },
+      {
+        "id": "asa:vanilla:nunatak",
+        "name": "Nunatak",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Ragnarok"
+      },
+      {
+        "id": "asa:vanilla:oasisaur",
+        "name": "Oasisaur",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Scorched_Earth"
+      },
+      {
+        "id": "asa:vanilla:oil-jug-bug",
+        "name": "Oil Jug Bug",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Scorched_Earth"
+      },
+      {
+        "id": "asa:vanilla:onyc",
+        "name": "Onyc",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:ossidon",
+        "name": "Ossidon",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Lost_Colony"
+      },
+      {
+        "id": "asa:vanilla:otter",
+        "name": "Otter",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:overseer",
+        "name": "Overseer",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:oviraptor",
+        "name": "Oviraptor",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:ovis",
+        "name": "Ovis",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:pachy",
+        "name": "Pachy",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:pachyrhinosaurus",
+        "name": "Pachyrhinosaurus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:palaeoctopus",
+        "name": "Palaeoctopus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "asa:vanilla:paraceratherium",
+        "name": "Paraceratherium",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:parakeet-fish-school",
+        "name": "Parakeet Fish School",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "asa:vanilla:parasaur",
+        "name": "Parasaur",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:parrot",
+        "name": "Parrot",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "asa:vanilla:pegomastax",
+        "name": "Pegomastax",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:pelagornis",
+        "name": "Pelagornis",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:phiomia",
+        "name": "Phiomia",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:phoenix",
+        "name": "Phoenix",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/Scorched_Earth"
+      },
+      {
+        "id": "asa:vanilla:piranha",
+        "name": "Piranha",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:plesiosaur",
+        "name": "Plesiosaur",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:poison-wyvern",
+        "name": "Poison Wyvern",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Scorched_Earth"
+      },
+      {
+        "id": "asa:vanilla:polar-bear",
+        "name": "Polar Bear",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:polar-purlovia",
+        "name": "Polar Purlovia",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:procoptodon",
+        "name": "Procoptodon",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:pteranodon",
+        "name": "Pteranodon",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:pulmonoscorpius",
+        "name": "Pulmonoscorpius",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:pulmonoscorpius-monarch",
+        "name": "Pulmonoscorpius Monarch",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Astraeos"
+      },
+      {
+        "id": "asa:vanilla:purlovia",
+        "name": "Purlovia",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:pyromane",
+        "name": "Pyromane",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Center"
+      },
+      {
+        "id": "asa:vanilla:quetzal",
+        "name": "Quetzal",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:raptor",
+        "name": "Raptor",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:ravager",
+        "name": "Ravager",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:reaper-king",
+        "name": "Reaper King",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:reaper-queen",
+        "name": "Reaper Queen",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:revenant-brontosaurus",
+        "name": "Revenant Brontosaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Lost_Colony"
+      },
+      {
+        "id": "asa:vanilla:revenant-carnotaurus",
+        "name": "Revenant Carnotaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Lost_Colony"
+      },
+      {
+        "id": "asa:vanilla:revenant-dilophosaur",
+        "name": "Revenant Dilophosaur",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Lost_Colony"
+      },
+      {
+        "id": "asa:vanilla:revenant-dimorphodon",
+        "name": "Revenant Dimorphodon",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Lost_Colony"
+      },
+      {
+        "id": "asa:vanilla:revenant-direwolf",
+        "name": "Revenant Direwolf",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Lost_Colony"
+      },
+      {
+        "id": "asa:vanilla:revenant-iguanodon",
+        "name": "Revenant Iguanodon",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Lost_Colony"
+      },
+      {
+        "id": "asa:vanilla:revenant-malwyn",
+        "name": "Revenant Malwyn",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Lost_Colony"
+      },
+      {
+        "id": "asa:vanilla:revenant-mammoth",
+        "name": "Revenant Mammoth",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Lost_Colony"
+      },
+      {
+        "id": "asa:vanilla:revenant-ossidon",
+        "name": "Revenant Ossidon",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Lost_Colony"
+      },
+      {
+        "id": "asa:vanilla:revenant-parasaur",
+        "name": "Revenant Parasaur",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Lost_Colony"
+      },
+      {
+        "id": "asa:vanilla:revenant-pteranodon",
+        "name": "Revenant Pteranodon",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Lost_Colony"
+      },
+      {
+        "id": "asa:vanilla:revenant-raptor",
+        "name": "Revenant Raptor",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Lost_Colony"
+      },
+      {
+        "id": "asa:vanilla:revenant-rex",
+        "name": "Revenant Rex",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Lost_Colony"
+      },
+      {
+        "id": "asa:vanilla:revenant-sabertooth",
+        "name": "Revenant Sabertooth",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Lost_Colony"
+      },
+      {
+        "id": "asa:vanilla:revenant-spino",
+        "name": "Revenant Spino",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Lost_Colony"
+      },
+      {
+        "id": "asa:vanilla:revenant-stegosaurus",
+        "name": "Revenant Stegosaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Lost_Colony"
+      },
+      {
+        "id": "asa:vanilla:revenant-therizinosaur",
+        "name": "Revenant Therizinosaur",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Lost_Colony"
+      },
+      {
+        "id": "asa:vanilla:revenant-troodon",
+        "name": "Revenant Troodon",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Lost_Colony"
+      },
+      {
+        "id": "asa:vanilla:revenant-veilwyn",
+        "name": "Revenant Veilwyn",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Lost_Colony"
+      },
+      {
+        "id": "asa:vanilla:revenant-yutyrannus",
+        "name": "Revenant Yutyrannus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Lost_Colony"
+      },
+      {
+        "id": "asa:vanilla:rex",
+        "name": "Rex",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:rhyniognatha",
+        "name": "Rhyniognatha",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:rhyniognatha-drone",
+        "name": "Rhyniognatha Drone",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Astraeos"
+      },
+      {
+        "id": "asa:vanilla:rock-drake",
+        "name": "Rock Drake",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:rock-elemental",
+        "name": "Rock Elemental",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Scorched_Earth"
+      },
+      {
+        "id": "asa:vanilla:rockwell",
+        "name": "Rockwell",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:roll-rat",
+        "name": "Roll Rat",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:rubble-golem",
+        "name": "Rubble Golem",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Scorched_Earth"
+      },
+      {
+        "id": "asa:vanilla:sabertooth",
+        "name": "Sabertooth",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:sabertooth-salmon",
+        "name": "Sabertooth Salmon",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:sarco",
+        "name": "Sarco",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:scout",
+        "name": "Scout",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "asa:vanilla:seeker",
+        "name": "Seeker",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:shallocis",
+        "name": "Shallocis",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Astraeos"
+      },
+      {
+        "id": "asa:vanilla:shastasaurus",
+        "name": "Shastasaurus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Center"
+      },
+      {
+        "id": "asa:vanilla:shinehorn",
+        "name": "Shinehorn",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:sir-5rm8",
+        "name": "Sir-5rM8",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:skeleton",
+        "name": "Skeleton",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Astraeos"
+      },
+      {
+        "id": "asa:vanilla:snow-owl",
+        "name": "Snow Owl",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "asa:vanilla:solwyn",
+        "name": "Solwyn",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Lost_Colony"
+      },
+      {
+        "id": "asa:vanilla:spino",
+        "name": "Spino",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:spirit-dire-bear",
+        "name": "Spirit Dire Bear",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Ragnarok"
+      },
+      {
+        "id": "asa:vanilla:spirit-direwolf",
+        "name": "Spirit Direwolf",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Ragnarok"
+      },
+      {
+        "id": "asa:vanilla:spring-drakeling",
+        "name": "Spring Drakeling",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Ragnarok"
+      },
+      {
+        "id": "asa:vanilla:stegosaurus",
+        "name": "Stegosaurus",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:subterranean-reaper-king",
+        "name": "Subterranean Reaper King",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:summer-drakeling",
+        "name": "Summer Drakeling",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Ragnarok"
+      },
+      {
+        "id": "asa:vanilla:surface-reaper-king",
+        "name": "Surface Reaper King",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:tapejara",
+        "name": "Tapejara",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:tek-giganotosaurus",
+        "name": "Tek Giganotosaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "asa:vanilla:tek-parasaur",
+        "name": "Tek Parasaur",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "asa:vanilla:tek-quetzal",
+        "name": "Tek Quetzal",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "asa:vanilla:tek-raptor",
+        "name": "Tek Raptor",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "asa:vanilla:tek-rex",
+        "name": "Tek Rex",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "asa:vanilla:tek-stegosaurus",
+        "name": "Tek Stegosaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "asa:vanilla:tek-triceratops",
+        "name": "Tek Triceratops",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "asa:vanilla:terror-bird",
+        "name": "Terror Bird",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:thanatos",
+        "name": "Thanatos",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Astraeos"
+      },
+      {
+        "id": "asa:vanilla:therizinosaur",
+        "name": "Therizinosaur",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:thodes",
+        "name": "Thodes",
+        "kind": "boss",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Astraeos"
+      },
+      {
+        "id": "asa:vanilla:thorny-dragon",
+        "name": "Thorny Dragon",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Scorched_Earth"
+      },
+      {
+        "id": "asa:vanilla:thrall",
+        "name": "Thrall",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Lost_Colony"
+      },
+      {
+        "id": "asa:vanilla:thylacoleo",
+        "name": "Thylacoleo",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:tidepup",
+        "name": "Tidepup",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "asa:vanilla:titanoboa",
+        "name": "Titanoboa",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:titanomyrma",
+        "name": "Titanomyrma",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:titanosaur",
+        "name": "Titanosaur",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:triceratops",
+        "name": "Triceratops",
+        "kind": "base",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:trilobite",
+        "name": "Trilobite",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:troodon",
+        "name": "Troodon",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:tusoteuthis",
+        "name": "Tusoteuthis",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:umbra",
+        "name": "Umbra",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Center"
+      },
+      {
+        "id": "asa:vanilla:unicorn",
+        "name": "Unicorn",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:veilwyn",
+        "name": "Veilwyn",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Lost_Colony"
+      },
+      {
+        "id": "asa:vanilla:velonasaur",
+        "name": "Velonasaur",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Extinction"
+      },
+      {
+        "id": "asa:vanilla:vulture",
+        "name": "Vulture",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Scorched_Earth"
+      },
+      {
+        "id": "asa:vanilla:water-jug-bug",
+        "name": "Water Jug Bug",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Scorched_Earth"
+      },
+      {
+        "id": "asa:vanilla:winter-drakeling",
+        "name": "Winter Drakeling",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Ragnarok"
+      },
+      {
+        "id": "asa:vanilla:woolly-rhino",
+        "name": "Woolly Rhino",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:x-acrocanthosaurus",
+        "name": "X-Acrocanthosaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "asa:vanilla:x-allosaurus",
+        "name": "X-Allosaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "asa:vanilla:x-ankylosaurus",
+        "name": "X-Ankylosaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "asa:vanilla:x-archelon",
+        "name": "X-Archelon",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "asa:vanilla:x-argentavis",
+        "name": "X-Argentavis",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "asa:vanilla:x-basilosaurus",
+        "name": "X-Basilosaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "asa:vanilla:x-concavenator",
+        "name": "X-Concavenator",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "asa:vanilla:x-cryolophosaurus",
+        "name": "X-Cryolophosaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "asa:vanilla:x-deinosuchus",
+        "name": "X-Deinosuchus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "asa:vanilla:x-dunkleosteus",
+        "name": "X-Dunkleosteus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "asa:vanilla:x-helicoprion",
+        "name": "X-Helicoprion",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "asa:vanilla:x-ichthyosaurus",
+        "name": "X-Ichthyosaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "asa:vanilla:x-megalodon",
+        "name": "X-Megalodon",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "asa:vanilla:x-mosasaurus",
+        "name": "X-Mosasaurus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "asa:vanilla:x-otter",
+        "name": "X-Otter",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "asa:vanilla:x-paraceratherium",
+        "name": "X-Paraceratherium",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "asa:vanilla:x-parasaur",
+        "name": "X-Parasaur",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "asa:vanilla:x-raptor",
+        "name": "X-Raptor",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "asa:vanilla:x-rex",
+        "name": "X-Rex",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "asa:vanilla:x-rock-elemental",
+        "name": "X-Rock Elemental",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "asa:vanilla:x-sabertooth",
+        "name": "X-Sabertooth",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "asa:vanilla:x-sabertooth-salmon",
+        "name": "X-Sabertooth Salmon",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "asa:vanilla:x-spino",
+        "name": "X-Spino",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "asa:vanilla:x-tapejara",
+        "name": "X-Tapejara",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "asa:vanilla:x-triceratops",
+        "name": "X-Triceratops",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "asa:vanilla:x-woolly-rhino",
+        "name": "X-Woolly Rhino",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "asa:vanilla:x-xiphactinus",
+        "name": "X-Xiphactinus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "asa:vanilla:x-yutyrannus",
+        "name": "X-Yutyrannus",
+        "kind": "variant",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+      },
+      {
+        "id": "asa:vanilla:xiphactinus",
+        "name": "Xiphactinus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:yeti",
+        "name": "Yeti",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:vanilla:yi-ling",
+        "name": "Yi Ling",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/Aberration"
+      },
+      {
+        "id": "asa:vanilla:yutyrannus",
+        "name": "Yutyrannus",
+        "kind": "base",
+        "partial": true,
+        "list_source": "https://ark.wiki.gg/wiki/The_Island"
+      },
+      {
+        "id": "asa:paleo-ark:giganotosaurus-evo",
+        "name": "Giganotosaurus (Paleo ARK)",
+        "kind": "mod",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/Mod:Paleo_ARK/Giganotosaurus"
+      },
+      {
+        "id": "asa:paleo-ark:tyrannosaurus-evo",
+        "name": "Tyrannosaurus (Paleo ARK)",
+        "kind": "mod",
+        "partial": false,
+        "list_source": "https://ark.wiki.gg/wiki/Mod:Paleo_ARK/Tyrannosaurus"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "subject": "Общий список видов и наличие редакций",
+      "url": "https://ark.wiki.gg/wiki/Creatures"
+    },
+    {
+      "subject": "The Island",
+      "url": "https://ark.wiki.gg/wiki/The_Island"
+    },
+    {
+      "subject": "Scorched Earth",
+      "url": "https://ark.wiki.gg/wiki/Scorched_Earth"
+    },
+    {
+      "subject": "Aberration",
+      "url": "https://ark.wiki.gg/wiki/Aberration"
+    },
+    {
+      "subject": "Extinction",
+      "url": "https://ark.wiki.gg/wiki/Extinction"
+    },
+    {
+      "subject": "Genesis Part 1",
+      "url": "https://ark.wiki.gg/wiki/Genesis:_Part_1"
+    },
+    {
+      "subject": "Genesis Part 2",
+      "url": "https://ark.wiki.gg/wiki/Genesis:_Part_2"
+    },
+    {
+      "subject": "Ragnarok",
+      "url": "https://ark.wiki.gg/wiki/Ragnarok"
+    },
+    {
+      "subject": "Valguero",
+      "url": "https://ark.wiki.gg/wiki/Valguero"
+    },
+    {
+      "subject": "Crystal Isles",
+      "url": "https://ark.wiki.gg/wiki/Crystal_Isles"
+    },
+    {
+      "subject": "Lost Island",
+      "url": "https://ark.wiki.gg/wiki/Lost_Island"
+    },
+    {
+      "subject": "Fjordur",
+      "url": "https://ark.wiki.gg/wiki/Fjordur"
+    },
+    {
+      "subject": "Lost Colony",
+      "url": "https://ark.wiki.gg/wiki/Lost_Colony"
+    },
+    {
+      "subject": "Astraeos",
+      "url": "https://ark.wiki.gg/wiki/Astraeos"
+    },
+    {
+      "subject": "График и изменения ASA",
+      "url": "https://ark.wiki.gg/wiki/ARK:_Survival_Ascended"
+    },
+    {
+      "subject": "The Center",
+      "url": "https://ark.wiki.gg/wiki/The_Center"
+    },
+    {
+      "subject": "Постоянные Aberrant-варианты",
+      "url": "https://ark.wiki.gg/wiki/Aberrant_Creatures"
+    },
+    {
+      "subject": "Постоянные X-варианты",
+      "url": "https://ark.wiki.gg/wiki/X-Creatures"
+    },
+    {
+      "subject": "Постоянные R-варианты",
+      "url": "https://ark.wiki.gg/wiki/R-Creatures"
+    },
+    {
+      "subject": "Tek-варианты",
+      "url": "https://ark.wiki.gg/wiki/Tek_Creatures"
+    },
+    {
+      "subject": "Corrupted-варианты Extinction",
+      "url": "https://ark.wiki.gg/wiki/Corrupted_Creatures"
+    },
+    {
+      "subject": "Revenant-варианты Lost Colony",
+      "url": "https://ark.wiki.gg/wiki/Revenant_Creatures"
+    },
+    {
+      "subject": "Ноябрьские TLC и Enigmasaur ASA",
+      "url": "https://ark.wiki.gg/wiki/ARK:_Survival_Ascended/Patch/97.0"
+    },
+    {
+      "subject": "Временные появления Dragontopia",
+      "url": "https://ark.wiki.gg/wiki/Dragontopia"
+    },
+    {
+      "subject": "Aquatica · ASE PC/Steam",
+      "url": "https://ark.wiki.gg/wiki/Aquatica"
+    }
+  ],
+  "boundaries": [
+    "Это расширенный справочник, а не заявление о полном покрытии всех игровых сущностей и всех вариантов.",
+    "Сезонные существа событий, большинство mission-only/VR/Brute вариантов, чиби и чисто декоративные формы не инвентаризированы полностью.",
+    "Карты в записи — подтверждённый контекст появления; список не является исчерпывающей spawn map.",
+    "guide.partial=true означает, что собственного завершённого разбора нет; переходить по конкретному источнику, а не применять универсальный гайд.",
+    "checked_at фиксирует проверку источников, а не игровой тест. Версии catalog-* относятся к набору данных.",
+    "kind=base означает основную или самостоятельную уникальную форму; это не таксономический подсчёт биологических видов. kind=variant — отдельная игровая форма, kind=boss — встреча с боссом.",
+    "Источники wiki частично доступны только в поисковом индексе из-за HTTP 403 при прямом чтении. Структурная проверка URL не является проверкой всех live-страниц.",
+    "ASA 97.0 меняет приручение Giganotosaurus; ASE и ASA Araneo также разделены после TLC.",
+    "Aquatica включена только в ASE; официальный выпуск DLC относится к PC/Steam. Консольная доступность не предполагается автоматически."
+  ],
+  "excluded_or_pending": [
+    {
+      "scope": "ASA Genesis Part 2 и R-варианты",
+      "reason": "Официальная wiki указывает Q2 2027. В ASA автоматически не добавлены.",
+      "source": "https://ark.wiki.gg/wiki/ARK:_Survival_Ascended"
+    },
+    {
+      "scope": "ASA эксклюзивы Crystal Isles, Lost Island и Fjordur",
+      "reason": "Карты отложены. Исключения с отдельно подтверждённым появлением, например Desmodus на Lost Colony, учитываются отдельно.",
+      "source": "https://ark.wiki.gg/wiki/ARK:_Survival_Ascended"
+    },
+    {
+      "scope": "Dragontopia: Xeranox и непроверенные будущие формы",
+      "reason": "Родная карта ожидается в декабре 2026; Gargantar, Lumina и Umbra включены отдельно по подтверждённым временным появлениям на уже выпущенных картах.",
+      "source": "https://ark.wiki.gg/wiki/Dragontopia"
+    },
+    {
+      "scope": "Технические варианты боссов, Shark/Squid-миньоны Astraeos и NPC Ships",
+      "reason": "Не добавляются как отдельные виды коллекции. Встречи с боссами представлены; различные сложности, отдельные части тела и blueprints не увеличивают число карточек.",
+      "source": "https://ark.wiki.gg/wiki/Astraeos"
+    },
+    {
+      "scope": "R-Dire Bear, ASE Tek Giganotosaurus и прочие только dev/unused формы",
+      "reason": "Наличие blueprint не означает доступность в обычной игре. Не включены без подтверждённого игрового появления.",
+      "source": "https://ark.wiki.gg/wiki/Genesis:_Part_2"
+    },
+    {
+      "scope": "Остальные Astral/Lightning формы Astraeos и эпизодические противники миссий",
+      "reason": "Зафиксированы как неполная часть инвентаризации; не подменяются обычными видами и не заявляются покрытыми.",
+      "source": "https://ark.wiki.gg/wiki/Astraeos"
+    },
+    {
+      "scope": "Atlantis · ASA",
+      "reason": "Карта анонсирована на Q1 2027, виды не выдаются за уже доступных.",
+      "source": "https://ark.wiki.gg/wiki/Atlantis"
+    },
+    {
+      "scope": "Abyssal Reaper Offspring и технические промежуточные формы",
+      "reason": "Ранние стадии получения и дополнительные blueprints не объявляются отдельными взрослыми видами коллекции.",
+      "source": "https://ark.wiki.gg/wiki/Aquatica"
+    }
+  ]
+}

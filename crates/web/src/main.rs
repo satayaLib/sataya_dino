@@ -64,6 +64,18 @@ fn Shell() -> Html {
     let ctx = use_app();
     let route = use_route::<Route>().unwrap_or(Route::Catalog);
     let menu = use_state(|| false);
+    let update_ready = use_state(browser::update_available);
+    {
+        let update_ready = update_ready.clone();
+        use_effect_with((), move |_| {
+            let listener = EventListener::new(
+                &web_sys::window().expect("window"),
+                "ark-update",
+                move |_| update_ready.set(browser::update_available()),
+            );
+            move || drop(listener)
+        });
+    }
     let change_profile = {
         let ctx = ctx.clone();
         Callback::from(move |e: Event| {
@@ -95,7 +107,7 @@ fn Shell() -> Html {
         let active=route==*r||(*r==Route::Catalog&&matches!(route,Route::Creature{..}));html!{<Link<Route> classes={classes!("nav-item",active.then_some("active"))} to={r.clone()}><Icon name={*icon}/><span>{label}</span>if *r==Route::Collection{<span class="nav-count">{ctx.data.creatures.iter().filter(|c|c.profile_id==profile.id).count()}</span>}</Link<Route>>}
     })}</nav><div class="sidebar-label">{"ОРГАНИЗОВАТЬ"}</div><nav>{for[(Route::Packs,"box","Пакеты существ"),(Route::Profiles,"globe","Миры и серверы"),(Route::Transfer,"transfer","Импорт и экспорт"),(Route::Settings,"settings","Настройки")].iter().map(|(r,icon,label)|{html!{<Link<Route> classes={classes!("nav-item",(route==*r).then_some("active"))} to={r.clone()}><Icon name={*icon}/><span>{label}</span></Link<Route>>}})}</nav><div class="sidebar-bottom"><div class="field-note"><span class="status-dot"/><strong>{"Личная коллекция"}</strong><p>{"Ваши дино и заметки хранятся в этом браузере."}</p></div><div class="sidebar-profile"><span class="avatar">{"S"}</span><div><strong>{&profile.name}</strong><small>{game.label()}</small></div></div><span class="version-label">{"FIELD GUIDE / V.01"}</span></div></aside>
     <div class="main-shell"><header class="topbar"><button class="icon-button mobile-menu" aria-label={if *menu{"Закрыть меню"}else{"Открыть меню"}} aria-expanded={menu.to_string()} aria-controls="main-navigation" onclick={let menu=menu.clone();Callback::from(move |_|menu.set(!*menu))}><Icon name="menu"/></button><div class="breadcrumb"><span>{"Справочник"}</span><Icon name="chevron"/><strong>{current}</strong></div><div class="topbar-actions"><div class="edition-switch">{for[Game::Asa,Game::Ase].map(|g|{let ctx=ctx.clone();html!{<button class={classes!((g==game).then_some("active"))} disabled={*ctx.busy||!*ctx.ready} onclick={Callback::from(move |_|{let mut next=(*ctx.data).clone();let id=if let Some(p)=next.profiles.iter().find(|p|p.game==g){p.id.clone()}else{let p=Profile::new(browser::new_id(),format!("Мой мир · {}",g.key().to_uppercase()),g);let id=p.id.clone();next.profiles.push(p);id};next.preferences.active_profile_id=id;ctx.save(next,"Игра выбрана",Callback::noop());})}>{g.key().to_uppercase()}</button>}})}</div><label class="profile-switch"><Icon name="globe"/><SelectField label="Текущий профиль" value={profile.id.clone()} onchange={change_profile} disabled={*ctx.busy||!*ctx.ready}>{for ctx.data.profiles.iter().map(|p|html!{<option value={p.id.clone()}>{&p.name}</option>})}</SelectField></label></div></header>
-        <main class="main-content">if let Some(error)=&*ctx.storage_error{<div class="error-box storage-error" role="alert"><strong>{"Локальная БД недоступна"}</strong><p>{error}</p><p>{"Каталог доступен. Сохранение коллекции станет доступно после открытия хранилища."}</p></div>}
+        <main class="main-content">if *update_ready {<div class="update-banner" role="status"><span>{if ctx.editor.is_some(){"Доступна новая версия. Сохраните или закройте форму перед обновлением."}else{"Доступна новая версия справочника."}}</span><button class="button small-button primary" disabled={ctx.editor.is_some()||*ctx.busy} onclick={let notice=ctx.notice.clone();Callback::from(move |_|{let notice=notice.clone();spawn_local(async move{if let Err(error)=browser::activate_update().await{notice.set(Some(browser::error(error)));}});})}>{"Обновить"}</button></div>}if let Some(error)=&*ctx.storage_error{<div class="error-box storage-error" role="alert"><strong>{"Локальная БД недоступна"}</strong><p>{error}</p><p>{"Каталог доступен. Сохранение коллекции станет доступно после открытия хранилища."}</p></div>}
             <Switch<Route> render={switch}/>
         </main>
     </div>
@@ -139,6 +151,7 @@ fn App() -> Html {
             spawn_local(async move {
                 let response = async {
                     let response = Request::get(&browser::asset_url("data/catalog.json"))
+                        .header("Cache-Control", "no-cache")
                         .send()
                         .await
                         .map_err(|e| e.to_string())?;

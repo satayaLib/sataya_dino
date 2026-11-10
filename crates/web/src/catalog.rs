@@ -10,6 +10,7 @@ pub fn CatalogView() -> Html {
     let method = use_state(String::new);
     let pack = use_state(|| "active".to_owned());
     let tab = use_state(|| "all".to_owned());
+    let kind = use_state(String::new);
     let game = ctx.data.profile().game;
     {
         let pack = pack.clone();
@@ -37,12 +38,13 @@ pub fn CatalogView() -> Html {
         })
     };
     let profile = ctx.data.profile();
-    let visible: Vec<_> = ctx
+    let mut visible: Vec<_> = ctx
         .catalog
         .creatures
         .iter()
         .filter(|c| {
             c.game == game
+                && (kind.is_empty() || c.kind == *kind || (*kind == "base" && c.kind.is_empty()))
                 && c.matches(&search)
                 && (method.is_empty() || c.guide.method == *method)
                 && (pack.is_empty()
@@ -60,6 +62,17 @@ pub fn CatalogView() -> Html {
                 }
         })
         .collect();
+    visible.sort_by(|left, right| {
+        let rank = |kind: &str| match kind {
+            "variant" => 1,
+            "boss" => 2,
+            _ => 0,
+        };
+        rank(&left.kind)
+            .cmp(&rank(&right.kind))
+            .then(left.guide.partial.cmp(&right.guide.partial))
+            .then(left.name.cmp(&right.name))
+    });
     let count = ctx
         .catalog
         .creatures
@@ -83,7 +96,7 @@ pub fn CatalogView() -> Html {
         <div class="catalog-tools"><div class="tabs">{for [("all","Все существа"),("owned","Мои дино"),("wish","Хочу приручить"),("favorites","Избранное")].iter().map(|(key,label)|{
             let selected=*tab==*key;let tab=tab.clone();let key=key.to_string();html!{<button class={classes!("tab",selected.then_some("active"))} onclick={Callback::from(move |_|tab.set(key.clone()))}>{label}</button>}
         })}</div><span class="muted small">{format!("{} записей",visible.len())}</span></div>
-        <div class="filter-row"><label class="search-field"><Icon name="search"/><input aria-label="Поиск существ" placeholder="Название на русском или английском…" value={(*search).clone()} oninput={onsearch}/><kbd>{"/"}</kbd></label><SelectField label="Способ приручения" value={(*method).clone()} onchange={onmethod}><option value="">{"Все способы"}</option><option value="knockout">{"Оглушение"}</option><option value="passive">{"Пассивное"}</option><option value="special">{"Особый способ"}</option></SelectField><SelectField label="Пакет существ" value={(*pack).clone()} onchange={onpack}><option value="active">{"Пакеты профиля"}</option><option value="">{"Все пакеты"}</option>{for ctx.catalog.packs.iter().filter(|p|p.game==game&&p.available).map(|p|html!{<option value={p.id.clone()}>{&p.name}</option>})}</SelectField></div>
+        <div class="filter-row"><label class="search-field"><Icon name="search"/><input aria-label="Поиск существ" placeholder="Название на русском или английском…" value={(*search).clone()} oninput={onsearch}/><kbd>{"/"}</kbd></label><SelectField label="Способ приручения" value={(*method).clone()} onchange={onmethod}><option value="">{"Все способы"}</option>{for ctx.catalog.creatures.iter().filter(|c|c.game==game).map(|c|c.guide.method.clone()).collect::<std::collections::BTreeSet<_>>().iter().map(|key|html!{<option value={key.clone()}>{method_label(key)}</option>})}</SelectField><SelectField label="Тип существа" value={(*kind).clone()} onchange={let kind=kind.clone();Callback::from(move |event:Event|kind.set(event.target_unchecked_into::<HtmlSelectElement>().value()))}><option value="">{"Все виды и варианты"}</option><option value="base">{"Основные виды"}</option><option value="variant">{"Варианты"}</option><option value="boss">{"Боссы"}</option></SelectField><SelectField label="Пакет существ" value={(*pack).clone()} onchange={onpack}><option value="active">{"Пакеты профиля"}</option><option value="">{"Все пакеты"}</option>{for ctx.catalog.packs.iter().filter(|p|p.game==game&&p.available).map(|p|html!{<option value={p.id.clone()}>{&p.name}</option>})}</SelectField></div>
         if visible.is_empty(){<div class="empty-state"><Icon name="search"/><h2>{"Никого не нашли"}</h2><p>{"Попробуйте другое название или измените фильтры."}</p></div>}
         <div class="creature-grid">{for visible.iter().map(|c|{
             let owned=ctx.data.creatures.iter().filter(|o|o.reference.creature_id==c.id&&o.profile_id==profile.id).count();
@@ -130,7 +143,7 @@ pub fn CreatureView(props: &DetailProps) -> Html {
         <Link<Route> classes="back-link" to={Route::Catalog}><Icon name="back"/>{"Каталог существ"}</Link<Route>>
         <section class="detail-hero"><div><span class="eyebrow">{format!("{} / {}",c.game.key().to_uppercase(),c.pack_id.to_uppercase())}</span><h1>{&c.name}</h1><p class="latin">{&c.name_en}</p><div class="detail-tags"><span>{&c.group}</span><span>{&c.diet}</span><span>{&c.role}</span></div></div><DinoArt kind={c.art.clone()}/></section>
         <div class="detail-layout"><div><section class="panel intro"><h2>{"Знакомство с видом"}</h2><p>{&c.description}</p></section><section class="panel"><div class="section-heading"><h2>{"Как приручить"}</h2><span class="source-tag">{method_label(&c.guide.method)}</span></div>
-        if c.guide.partial { <div class="callout">{"Инструкция для этого варианта ещё дополняется. Перед приручением проверьте страницу автора."}</div> }
+        if c.guide.partial { <div class="callout">{"Подробная инструкция для этой карточки дополняется. Способ получения проверьте по ссылке на источник."}</div> }
         <ol class="taming-steps">{for c.guide.steps.iter().enumerate().map(|(i,step)|html!{<li><span class="step-number">{format!("{:02}",i+1)}</span><p>{step}</p></li>})}</ol>
         if !c.guide.notes.is_empty(){<div class="guide-notes"><h3>{"Полевые заметки"}</h3>{for c.guide.notes.iter().map(|n|html!{<p>{n}</p>})}</div>}
         </section><div class="source-line"><a href={c.guide.source.clone()} target="_blank" rel="noopener noreferrer">{"Источник инструкции"}<Icon name="external"/></a><span>{format!("Редакция {} · {}",c.revision,c.guide.checked_at)}</span></div></div>

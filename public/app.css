@@ -17,3 +17,9 @@
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 
 @media(max-width:760px){.sidebar{visibility:hidden}.sidebar.menu-open{visibility:visible}}
+
+.points-section{margin:26px 0}.points-table{min-width:560px;width:100%;border-collapse:collapse}.points-table th,.points-table td{padding:8px;text-align:left;border-bottom:1px solid var(--line);font-size:10px}.points-table input{width:76px;padding:8px;font-size:12px}.points-table th:first-child{min-width:105px}.stat-mode-control{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:18px 0;font-size:12px}.stat-mode-control select{max-width:100%}
+
+.species-candidates{padding:16px;margin:20px 0;background:var(--surface-soft);border:1px solid var(--line);border-radius:8px;font-size:12px}.species-candidates>.button-row{margin-top:12px}.filter-row>select{min-width:130px}
+
+.update-banner{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 18px;margin-bottom:24px;border:1px solid var(--line);border-radius:8px;background:var(--surface-soft);font-size:12px}

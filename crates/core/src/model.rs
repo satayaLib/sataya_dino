@@ -59,6 +59,8 @@ pub struct CreatureDefinition {
     pub name: String,
     pub name_en: String,
     #[serde(default)]
+    pub kind: String,
+    #[serde(default)]
     pub aliases: Vec<String>,
     pub group: String,
     pub diet: String,
@@ -175,7 +177,63 @@ pub struct OwnedCreature {
     pub updated_at: String,
 }
 
+#[derive(Clone, Copy, Debug, PartialEq, Eq)]
+pub enum PointStage {
+    BeforeTame,
+    AfterTame,
+    Mutations,
+    Levelups,
+}
+
+pub const POINT_STAGES: [(PointStage, &str); 4] = [
+    (PointStage::BeforeTame, "До приручения"),
+    (PointStage::AfterTame, "База после приручения"),
+    (PointStage::Mutations, "Мутации"),
+    (PointStage::Levelups, "Прокачка"),
+];
+
+impl PointStage {
+    pub fn key(self) -> &'static str {
+        match self {
+            Self::BeforeTame => "before_tame",
+            Self::AfterTame => "after_tame",
+            Self::Mutations => "mutations",
+            Self::Levelups => "levelups",
+        }
+    }
+    pub fn from_key(key: &str) -> Option<Self> {
+        POINT_STAGES
+            .iter()
+            .find(|(stage, _)| stage.key() == key)
+            .map(|(stage, _)| *stage)
+    }
+    pub fn field_key(self, stat: &str) -> String {
+        format!("points.{}.{stat}", self.key())
+    }
+}
+
 impl OwnedCreature {
+    pub fn point(&self, stage: PointStage, stat: &str) -> Option<u32> {
+        self.extra_stats
+            .get(&stage.field_key(stat))
+            .copied()
+            .filter(|value| {
+                value.is_finite()
+                    && *value >= 0.0
+                    && *value <= u32::MAX as f64
+                    && value.fract() == 0.0
+            })
+            .map(|value| value as u32)
+    }
+
+    pub fn set_point(&mut self, stage: PointStage, stat: &str, value: Option<u32>) {
+        let key = stage.field_key(stat);
+        if let Some(value) = value {
+            self.extra_stats.insert(key, value as f64);
+        } else {
+            self.extra_stats.remove(&key);
+        }
+    }
     pub fn new(id: String, profile_id: String, reference: CreatureRef, now: String) -> Self {
         Self {
             id,
@@ -246,6 +304,19 @@ impl OwnedCreature {
             }
         }
         for (key, value) in &self.extra_stats {
+            if key.starts_with("points.") {
+                let parts: Vec<_> = key.split('.').collect();
+                if parts.len() != 3
+                    || PointStage::from_key(parts[1]).is_none()
+                    || !STAT_FIELDS
+                        .iter()
+                        .any(|(stat, _, _)| *stat == parts[2] && *stat != "imprint_percent")
+                    || value.fract() != 0.0
+                    || *value > u32::MAX as f64
+                {
+                    errors.push(FieldError::new("extra_stats_json", "Очки характеристик должны быть целыми неотрицательными числами с указанной стадией"));
+                }
+            }
             if key.trim().is_empty() || !value.is_finite() || *value < 0.0 {
                 errors.push(FieldError::new(
                     "extra_stats_json",

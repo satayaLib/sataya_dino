@@ -5,6 +5,7 @@ const manifest=JSON.parse(await readFile(new URL('precache.json',root),'utf8'));
 assert.match(manifest.version,/^[0-9a-f]{12}$/);
 assert.ok(manifest.files.includes('index.html'));
 assert.ok(manifest.files.includes('data/catalog.json'));
+assert.ok(manifest.files.includes('data/portrait-index.json'));
 assert.ok(manifest.files.some(f=>f.endsWith('.wasm')));
 for(const file of manifest.files){assert.ok(!file.startsWith('/')&&!file.includes('..'));await stat(new URL(file,root));}
 const sw=await readFile(new URL('sw.js',root),'utf8');
