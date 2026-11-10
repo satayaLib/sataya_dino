@@ -1,0 +1,12 @@
+[build]
+target = "index.html"
+dist = "dist"
+filehash = true
+
+[watch]
+ignore = [".tools", "node_modules", "dist", "test-results", "docs"]
+
+[serve]
+addresses = ["127.0.0.1"]
+port = 4260
+open = false

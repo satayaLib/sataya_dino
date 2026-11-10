@@ -1,0 +1,8 @@
+.tools/
+target/
+dist/
+node_modules/
+.DS_Store
+test-results/
+public/ocr/
+public/data/

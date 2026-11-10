@@ -1,0 +1,12 @@
+# Сторонние компоненты и источники
+
+- [Yew](https://github.com/yewstack/yew), MIT или Apache 2.0.
+- [Rexie](https://github.com/devashishdxt/rexie), MIT или Apache 2.0.
+- [Tesseract.js](https://github.com/naptha/tesseract.js), Apache 2.0.
+- [Tesseract.js core](https://github.com/naptha/tesseract.js-core), Apache 2.0.
+- [Языковые пакеты Tesseract.js](https://github.com/naptha/tessdata): eng и rus; npm-обёртки указывают MIT, их метаданные включены в ресурсы OCR. Лицензирование исходных обученных моделей описано в upstream-репозитории.
+- Остальные Rust-зависимости зафиксированы в `Cargo.lock`, npm-зависимости — в `package-lock.json`. Полные лицензии находятся в соответствующих пакетах.
+
+Источники игровых сведений указаны непосредственно в `data/creatures.json` и в карточках приложения: официальный ARK community wiki и страницы авторов модов. Тексты инструкций проекта являются собственными краткими изложениями. Игровые иллюстрации и ассеты модов не распространяются. Все SVG-силуэты нарисованы для этого приложения.
+
+ARK и названия модов принадлежат их правообладателям. Проект является независимым справочником.

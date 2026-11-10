@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#183b35" />
+    <meta name="description" content="Полевой справочник существ ARK и ваша личная коллекция. Приручение, статы, скриншоты и перенос CSV. Всё на вашем устройстве." />
+    <title>Sataya — полевой справочник ARK</title>
+    <link data-trunk rel="rust" href="crates/web/Cargo.toml" data-wasm-opt="0" />
+    <link data-trunk rel="css" href="public/app.css" />
+    <link data-trunk rel="copy-dir" href="public/assets" />
+    <link data-trunk rel="copy-dir" href="public/data" />
+    <link data-trunk rel="copy-dir" href="public/ocr" />
+    <link data-trunk rel="copy-file" href="public/sw.js" />
+    <link data-trunk rel="copy-file" href="public/manifest.webmanifest" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="manifest.webmanifest" />
+  </head>
+  <body>
+    <noscript>Для полевого справочника нужен JavaScript и WebAssembly.</noscript>
+    <div id="loading"><span>▱ SATAYA</span><p>Открываем полевой справочник…</p></div>
+  </body>
+</html>

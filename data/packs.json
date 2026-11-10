@@ -1,0 +1,56 @@
+[
+  {
+    "id": "vanilla",
+    "name": "Базовая игра · ASE",
+    "game": "ase",
+    "version": "catalog-2026-11-10",
+    "source": "https://ark.wiki.gg/wiki/ARK:_Survival_Evolved",
+    "description": "Начальный набор обычных существ The Island для Survival Evolved. Событийные, тек- и модовые варианты в эти карточки не входят.",
+    "available": true
+  },
+  {
+    "id": "vanilla",
+    "name": "Базовая игра · ASA",
+    "game": "asa",
+    "version": "catalog-2026-11-10",
+    "source": "https://ark.wiki.gg/wiki/ARK:_Survival_Ascended",
+    "description": "Начальный набор обычных существ The Island для Survival Ascended. Карточки модовых замен отделены от базовых.",
+    "available": true
+  },
+  {
+    "id": "ark-additions",
+    "name": "ARK Additions",
+    "game": "ase",
+    "version": "catalog-2026-11-10",
+    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=1522327484",
+    "description": "Первые три существа The Collection: брахиозавр, дейнозух и дейнотерий с отдельными механиками приручения.",
+    "available": true
+  },
+  {
+    "id": "paleo-ark",
+    "name": "Paleo ARK Evolution",
+    "game": "asa",
+    "version": "catalog-2026-11-10",
+    "source": "https://www.curseforge.com/ark-survival-ascended/mods/paleo-ark-evolution-apex-predators",
+    "description": "Два EVO-варианта Apex Predators. Rex и Giga имеют собственные сценарии, отличающиеся от базовой игры.",
+    "available": true
+  },
+  {
+    "id": "primal-fear",
+    "name": "Primal Fear",
+    "game": "ase",
+    "version": "catalog-2026-11-10",
+    "source": "https://steamcommunity.com/workshop/filedetails/?id=839162288",
+    "description": "Запланирован пакет с проверкой уровней существ, специального корма и цепочек прогрессии. Карточки пока не опубликованы.",
+    "available": false
+  },
+  {
+    "id": "primal-chaos",
+    "name": "Primal Chaos",
+    "game": "asa",
+    "version": "catalog-2026-11-10",
+    "source": "https://www.curseforge.com/ark-survival-ascended/mods/ark-primal-chaos",
+    "description": "Запланирован пакет overhaul. Для существ и ступеней развития нужны отдельные проверенные правила; карточек пока нет.",
+    "available": false
+  }
+]
